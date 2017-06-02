@@ -1,0 +1,1347 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-148da7a2b8b9ad739a5a0b8b68683fed4ac7e50ce8185f17d86aa05e75ed376e.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-4cb6b37ae0c653978a80cfe0c9288fcb02f00f746d1e076237703e57761c8973.css" media="all" rel="stylesheet" />
+  
+  
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-533b8a15e9857d8168369b00b52ff589cba2fe9e3ecf8db1a110517b9814d246.css" media="all" rel="stylesheet" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Pulse · apple/swift · GitHub</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars0.githubusercontent.com/u/10639145?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="apple/swift" property="og:title" /><meta content="https://github.com/apple/swift" property="og:url" /><meta content="swift - The Swift Programming Language" property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="FDFD:668E:25E86F6:3ACE6E4:592DE4CE" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="pulse" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="FDFD:668E:25E86F6:3ACE6E4:592DE4CE" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/repositories/pulse" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="OWIxN2UxMTk3ZjI0NDg3MTM5NmU3MjQ0MTMyNWM4YTUyZDRiOGYwNWMyYjdjZGE2OGIxYWMzOWNlY2U2Y2NjYXx7InJlbW90ZV9hZGRyZXNzIjoiMzIuOTcuMTEwLjU2IiwicmVxdWVzdF9pZCI6IkZERkQ6NjY4RToyNUU4NkY2OjNBQ0U2RTQ6NTkyREU0Q0UiLCJ0aW1lc3RhbXAiOjE0OTYxNzk5MTksImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+
+  <meta name="html-safe-nonce" content="f02d0619282b3e40d5574641cd00168539207be8">
+
+  <meta http-equiv="x-pjax-version" content="793fefe1855f41c37db2ad70f81dd4db">
+  
+
+    
+  <meta name="description" content="swift - The Swift Programming Language">
+  <meta name="go-import" content="github.com/apple/swift git https://github.com/apple/swift.git">
+
+  <meta content="10639145" name="octolytics-dimension-user_id" /><meta content="apple" name="octolytics-dimension-user_login" /><meta content="44838949" name="octolytics-dimension-repository_id" /><meta content="apple/swift" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="44838949" name="octolytics-dimension-repository_network_root_id" /><meta content="apple/swift" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="commits/master.atom" rel="alternate" title="Recent Commits to swift:master" type="application/atom+xml">
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="pulse#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+          <header class="site-header js-details-container Details" role="banner">
+  <div class="site-nav-container">
+    <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+
+    <button class="btn-link float-right site-header-toggle js-details-target" type="button" aria-label="Toggle navigation">
+      <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+    </button>
+
+    <div class="site-header-menu">
+      <nav class="site-header-nav">
+        <a href="https://github.com/features" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features">
+          Features
+</a>        <a href="https://github.com/business" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">
+          Business
+</a>        <a href="https://github.com/explore" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
+          Explore
+</a>            <a href="https://github.com/marketplace" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace">
+              Marketplace
+</a>        <a href="https://github.com/pricing" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing">
+          Pricing
+</a>      </nav>
+
+      <div class="site-header-actions">
+          <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="https://github.com/apple/swift/search" class="js-site-search-form" data-scoped-search-url="/apple/swift/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="pulse" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+
+          <a class="text-bold site-header-link" href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fpulse" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+            <span class="text-gray">or</span>
+            <a class="text-bold site-header-link" href="https://github.com/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+        
+
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+      <div class="container repohead-details-container">
+
+        <ul class="pagehead-actions">
+  <li>
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="watchers"
+     aria-label="2445 users are watching this repository">
+    2,445
+  </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="stargazers"
+      aria-label="38617 users starred this repository">
+      38,617
+    </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="network" class="social-count"
+       aria-label="5777 users forked this repository">
+      5,777
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="https://github.com/apple" class="url fn" rel="author">apple</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="https://github.com/apple/swift" data-pjax="#js-repo-pjax-container">swift</a></strong>
+
+</h1>
+
+      </div>
+      <div class="container">
+        
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/apple/swift" class="js-selected-navigation-item reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /apple/swift" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /apple/swift/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">163</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+
+
+    <div class="reponav-dropdown js-menu-container">
+      <button type="button" class="btn-link reponav-item reponav-dropdown js-menu-target selected" data-no-toggle aria-expanded="false" aria-haspopup="true">
+        Insights
+        <svg aria-hidden="true" class="octicon octicon-triangle-down v-align-middle text-gray" height="11" version="1.1" viewBox="0 0 12 16" width="8"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"/></svg>
+      </button>
+      <div class="dropdown-menu-content js-menu-content">
+        <div class="dropdown-menu dropdown-menu-sw">
+          <a class="dropdown-item" href="pulse" data-skip-pjax>
+            <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
+            Pulse
+          </a>
+          <a class="dropdown-item" href="graphs" data-skip-pjax>
+            <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+            Graphs
+          </a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+      </div>
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+          <div class="Subhead">
+  <h2 class="Subhead-heading">May 23, 2017 <span class="dash">–</span> May 30, 2017</h2>
+  <div class="Subhead-actions">
+    <div class="select-menu select-menu-modal-right js-menu-container js-select-menu js-pulse-period">
+      <button class="btn btn-sm select-menu-button js-menu-target" type="button" aria-haspopup="true">
+        <i>Period:</i>
+        <span class="js-select-button">1 week</span>
+      </button>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Filter Activity</span>
+            <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+          </div>
+
+          <div class="select-menu-list">
+            <div class="select-menu-item js-navigation-item ">
+              <input data-url="/apple/swift/pulse/daily" id="period_daily" name="period" type="radio" value="daily" />
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <div class="select-menu-item-text js-select-button-text">24 hours</div>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <input data-url="/apple/swift/pulse/halfweekly" id="period_halfweekly" name="period" type="radio" value="halfweekly" />
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <div class="select-menu-item-text js-select-button-text">3 days</div>
+            </div>
+            <div class="select-menu-item js-navigation-item selected">
+              <input checked="checked" data-url="/apple/swift/pulse" id="period_weekly" name="period" type="radio" value="weekly" />
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <div class="select-menu-item-text js-select-button-text">1 week</div>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <input data-url="/apple/swift/pulse/monthly" id="period_monthly" name="period" type="radio" value="monthly" />
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <div class="select-menu-item-text js-select-button-text">1 month</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Box">
+  <div class="Box-header">
+    <h3 class="Box-title">Overview</h3>
+  </div>
+
+  <ul>
+    <li class="Box-row p-0 d-flex">
+      <div class="flex-item-equal p-4">
+        <div class="simple-stacked-bar">
+            <a href="https://github.com/apple/swift/pulls?direction=desc&amp;sort=created&amp;state=closed" class="bar-section bar-section-alt" style="width:82.5%" aria-label="View all merged pull requests"></a>
+            <a href="https://github.com/apple/swift/pulls?direction=desc&amp;sort=created&amp;state=open" class="bar-section bar-section-positive" style="width:17.5%" aria-label="View all open pull requests"></a>
+        </div>
+        <div class="mt-2">
+          <span class="text-emphasized">120</span>
+          Active Pull Requests
+        </div>
+      </div>
+
+      <div class="flex-item-equal p-4">
+        <div class="simple-stacked-bar">
+        </div>
+        <div class="mt-2">
+          <span class="text-emphasized">0</span>
+          Active Issues
+        </div>
+      </div>
+    </li>
+
+    <li class="Box-row p-0">
+      <ul class="summary-stats">
+        <li>
+          <a href="pulse#merged-pull-requests">
+            <span class="num">
+              <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              99
+            </span>
+            Merged Pull Requests
+          </a>
+        </li>
+        <li>
+          <a href="pulse#proposed-pull-requests">
+            <span class="num">
+              <svg aria-hidden="true" class="octicon octicon-git-branch" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              21
+            </span>
+            Proposed Pull Requests
+          </a>
+        </li>
+        <li>
+          <a href="pulse#closed-issues">
+            <span class="num">
+              <svg aria-hidden="true" class="octicon octicon-issue-closed" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"/></svg>
+              0
+            </span>
+            Closed Issues
+          </a>
+        </li>
+        <li>
+          <a href="pulse#new-issues">
+            <span class="num">
+              <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+              0
+            </span>
+            New Issues
+          </a>
+        </li>
+      </ul>
+    </li>
+  </div>
+</div>
+
+  <div class="authors-and-code">
+    <div class="section diffstat-summary">
+      Excluding merges, <strong>35 authors</strong>
+      have pushed
+      <strong><span class="text-emphasized">113</span> commits</strong> to master and
+      <strong><span class="text-emphasized">136</span> commits</strong>
+      to all branches.
+      On master, <strong>298 files</strong>
+      have changed and there have been
+      <a href="https://github.com/apple/swift/compare/master@%7B1495575119%7D...master" class="lines-changed">
+        <strong class="insertions">5,294</strong> <strong>additions</strong> and
+        <strong class="deletions">2,415</strong> <strong>deletions</strong></a>.
+    </div>
+    <div class="section">
+      <div class="js-graph graph-canvas pulse-authors-graph" data-graph-name="pulse-authors"
+          data-url="https://github.com/apple/swift/pulse_committer_data">
+        <img class="graph-loading dots" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" alt="">
+      </div>
+    </div>
+  </div>
+
+<div class="pulse-sections">
+    <div id="pull-requests" class="pulse-section">
+    <h3 class="conversation-list-heading" id="merged-pull-requests">
+      <span class="inner">
+        <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        <span class="text-emphasized">99</span>
+        Pull requests merged by
+        <span class="text-emphasized">34</span> people
+      </span>
+    </h3>
+    <ul class="simple-conversation-list varied-states">
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9986</span>
+        <a href="https://github.com/apple/swift/pull/9986" class="title">Update latex_paper_size to latex_elements.papersize</a>
+        <relative-time datetime="2017-05-30T21:26:32Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9725</span>
+        <a href="https://github.com/apple/swift/pull/9725" class="title">[README] Add tzdata to dependencies for Ubuntu</a>
+        <relative-time datetime="2017-05-30T21:26:28Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9984</span>
+        <a href="https://github.com/apple/swift/pull/9984" class="title">Remove bogus options from benchmark build</a>
+        <relative-time datetime="2017-05-30T21:24:06Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9985</span>
+        <a href="https://github.com/apple/swift/pull/9985" class="title">swift-api-digester: teach the tool do detect APINotes&#39; moving one member variable/method to another type.</a>
+        <relative-time datetime="2017-05-30T21:23:33Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9987</span>
+        <a href="https://github.com/apple/swift/pull/9987" class="title">[closure-specializer] Support specialization of closures with @inout address parameters</a>
+        <relative-time datetime="2017-05-30T21:13:42Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9975</span>
+        <a href="https://github.com/apple/swift/pull/9975" class="title">[Debugger] Migration to DeclBaseName in preparation for special decl names </a>
+        <relative-time datetime="2017-05-30T20:39:34Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9771</span>
+        <a href="https://github.com/apple/swift/pull/9771" class="title">[Documentation] Add missing &#39;of&#39; to UnicodeScalar documentation.</a>
+        <relative-time datetime="2017-05-30T20:09:15Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9981</span>
+        <a href="https://github.com/apple/swift/pull/9981" class="title">[GSB] *Almost* eliminate the &quot;AlwaysPartial&quot; archetype resolution kind</a>
+        <relative-time datetime="2017-05-30T19:56:12Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9982</span>
+        <a href="https://github.com/apple/swift/pull/9982" class="title">[test] Mark two crashers with REQUIRES: asserts</a>
+        <relative-time datetime="2017-05-30T17:55:59Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9980</span>
+        <a href="https://github.com/apple/swift/pull/9980" class="title">Fix documentation build</a>
+        <relative-time datetime="2017-05-30T17:50:04Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9949</span>
+        <a href="https://github.com/apple/swift/pull/9949" class="title">[stdlib] Renames and tests for Swift 3 compatibility mode</a>
+        <relative-time datetime="2017-05-30T17:26:01Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9974</span>
+        <a href="https://github.com/apple/swift/pull/9974" class="title">[Diagnostics] Fix checking for presence of type variables in closure return expression</a>
+        <relative-time datetime="2017-05-30T10:19:41Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9971</span>
+        <a href="https://github.com/apple/swift/pull/9971" class="title">[QoI] Fix crash when constructing existential metatype without &#39;.init&#39;</a>
+        <relative-time datetime="2017-05-30T06:16:45Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9965</span>
+        <a href="https://github.com/apple/swift/pull/9965" class="title">[test/Sema] Fix typo</a>
+        <relative-time datetime="2017-05-29T08:54:08Z">May 29, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9973</span>
+        <a href="https://github.com/apple/swift/pull/9973" class="title">Fix a crash and add more crashers</a>
+        <relative-time datetime="2017-05-29T07:31:57Z">May 29, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9972</span>
+        <a href="https://github.com/apple/swift/pull/9972" class="title">[Sema] Preparations for removal of getName on ValueDecl</a>
+        <relative-time datetime="2017-05-29T05:36:39Z">May 29, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9970</span>
+        <a href="https://github.com/apple/swift/pull/9970" class="title">Per-library preparations for removal of getName on ValueDecl</a>
+        <relative-time datetime="2017-05-29T02:32:25Z">May 29, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9969</span>
+        <a href="https://github.com/apple/swift/pull/9969" class="title">[AST] Preparations for removal of getName on ValueDecl</a>
+        <relative-time datetime="2017-05-29T02:04:20Z">May 29, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9968</span>
+        <a href="https://github.com/apple/swift/pull/9968" class="title">Change getBaseName to return DeclBaseName instead of Identifier</a>
+        <relative-time datetime="2017-05-29T00:55:03Z">May 29, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9320</span>
+        <a href="https://github.com/apple/swift/pull/9320" class="title">Unify approach to printing declaration names</a>
+        <relative-time datetime="2017-05-29T00:25:20Z">May 29, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9319</span>
+        <a href="https://github.com/apple/swift/pull/9319" class="title">Add a couple of helper methods to DeclBaseName</a>
+        <relative-time datetime="2017-05-29T00:24:59Z">May 29, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#8804</span>
+        <a href="https://github.com/apple/swift/pull/8804" class="title">Remove for loop in computing mantissa double value</a>
+        <relative-time datetime="2017-05-27T20:53:25Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9955</span>
+        <a href="https://github.com/apple/swift/pull/9955" class="title">[ConstraintSolver] Refactor `solveSimplified` to consolidate disjunction choice attributes/operations</a>
+        <relative-time datetime="2017-05-27T20:52:27Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9961</span>
+        <a href="https://github.com/apple/swift/pull/9961" class="title">[Parse] Fix InFlightDiagnostic lifetime</a>
+        <relative-time datetime="2017-05-27T20:38:06Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9962</span>
+        <a href="https://github.com/apple/swift/pull/9962" class="title">[CSDiag] Fix crasher in KeyPathExpr diagnosis</a>
+        <relative-time datetime="2017-05-27T20:36:56Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9960</span>
+        <a href="https://github.com/apple/swift/pull/9960" class="title">[swiftc (37 vs. 5535)] Add crasher in swift::TypeBase::getCanonicalType(...)</a>
+        <relative-time datetime="2017-05-27T18:37:27Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9959</span>
+        <a href="https://github.com/apple/swift/pull/9959" class="title">[swiftc (36 vs. 5535)] Add crasher in swift::constraints::ConstraintSystem::getTypeOfReference</a>
+        <relative-time datetime="2017-05-27T17:06:47Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9957</span>
+        <a href="https://github.com/apple/swift/pull/9957" class="title">[swiftc (35 vs. 5535)] Add crasher in swift::Expr::propagateLValueAccessKind</a>
+        <relative-time datetime="2017-05-27T15:35:03Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9956</span>
+        <a href="https://github.com/apple/swift/pull/9956" class="title">[swiftc (34 vs. 5535)] Add crasher in swift::GenericSignatureBuilder::finalize</a>
+        <relative-time datetime="2017-05-27T14:03:57Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9954</span>
+        <a href="https://github.com/apple/swift/pull/9954" class="title">Start cleaning up &quot;must be materializable&quot; type variables</a>
+        <relative-time datetime="2017-05-27T07:47:22Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9948</span>
+        <a href="https://github.com/apple/swift/pull/9948" class="title">[4.0] Add a safeguard for diagnostic minimality</a>
+        <relative-time datetime="2017-05-27T06:28:38Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9953</span>
+        <a href="https://github.com/apple/swift/pull/9953" class="title">[4.0] [ConstraintSystem] Strip labels from enum elements when passed as values</a>
+        <relative-time datetime="2017-05-27T06:17:43Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9951</span>
+        <a href="https://github.com/apple/swift/pull/9951" class="title">[4.0] Syntax coloring performance regression</a>
+        <relative-time datetime="2017-05-27T02:05:32Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9952</span>
+        <a href="https://github.com/apple/swift/pull/9952" class="title">AST: Don&#39;t return hasTypeParameter() for DependentMemberTypes with an ErrorType base</a>
+        <relative-time datetime="2017-05-27T01:57:19Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9950</span>
+        <a href="https://github.com/apple/swift/pull/9950" class="title">Rdar32434045 syntax coloring performance regression</a>
+        <relative-time datetime="2017-05-27T00:54:42Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9938</span>
+        <a href="https://github.com/apple/swift/pull/9938" class="title">[ConstraintSystem] Strip labels from enum elements when passed as values</a>
+        <relative-time datetime="2017-05-27T00:36:21Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9925</span>
+        <a href="https://github.com/apple/swift/pull/9925" class="title">Sema: Fix bug where lazy properties could become stored sometimes</a>
+        <relative-time datetime="2017-05-27T00:23:58Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9947</span>
+        <a href="https://github.com/apple/swift/pull/9947" class="title">Cleanup: Use range-based for loop.</a>
+        <relative-time datetime="2017-05-26T22:29:12Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9946</span>
+        <a href="https://github.com/apple/swift/pull/9946" class="title">[stdlib] Fixing build with -swift-stdlib-enable-resiliency</a>
+        <relative-time datetime="2017-05-26T21:40:23Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9940</span>
+        <a href="https://github.com/apple/swift/pull/9940" class="title">A patch to make swiftc build in FreeBSD</a>
+        <relative-time datetime="2017-05-26T20:36:48Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9944</span>
+        <a href="https://github.com/apple/swift/pull/9944" class="title">SILGen: Don&#39;t crash when a keypath references an inherited computed property.</a>
+        <relative-time datetime="2017-05-26T19:21:23Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9942</span>
+        <a href="https://github.com/apple/swift/pull/9942" class="title">[Driver] Pass -warn-swift3-objc-inference-(minimal|complete) to the frontend</a>
+        <relative-time datetime="2017-05-26T18:43:20Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9933</span>
+        <a href="https://github.com/apple/swift/pull/9933" class="title">Support application of AnyKeyPath/PartialKeyPath.</a>
+        <relative-time datetime="2017-05-26T15:45:56Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9939</span>
+        <a href="https://github.com/apple/swift/pull/9939" class="title">Fix typo in renamed function SR-5015</a>
+        <relative-time datetime="2017-05-26T13:41:40Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9934</span>
+        <a href="https://github.com/apple/swift/pull/9934" class="title">Share the debug scope of unreachable instructions with the preceding BB.</a>
+        <relative-time datetime="2017-05-26T01:48:24Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9915</span>
+        <a href="https://github.com/apple/swift/pull/9915" class="title">Swift 3 api preserving changes</a>
+        <relative-time datetime="2017-05-25T23:31:37Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9929</span>
+        <a href="https://github.com/apple/swift/pull/9929" class="title">Implement @_downgrade_exhaustivity_check</a>
+        <relative-time datetime="2017-05-25T20:32:26Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9931</span>
+        <a href="https://github.com/apple/swift/pull/9931" class="title">Add a safeguard for diagnostic minimality</a>
+        <relative-time datetime="2017-05-25T19:02:19Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9930</span>
+        <a href="https://github.com/apple/swift/pull/9930" class="title">LibcShims android fix</a>
+        <relative-time datetime="2017-05-25T18:07:59Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9792</span>
+        <a href="https://github.com/apple/swift/pull/9792" class="title">[cast-optimizer] Add a new peephole for casting types to protocols they statically conform to</a>
+        <relative-time datetime="2017-05-25T17:54:09Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9778</span>
+        <a href="https://github.com/apple/swift/pull/9778" class="title">Resolve missing references generated by ldd</a>
+        <relative-time datetime="2017-05-25T16:54:29Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9921</span>
+        <a href="https://github.com/apple/swift/pull/9921" class="title">[Migrator] Don&#39;t take var -&gt; let fix-it</a>
+        <relative-time datetime="2017-05-25T16:38:07Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9926</span>
+        <a href="https://github.com/apple/swift/pull/9926" class="title">Sema: Update isExtensionApplied() for primitive AnyObject</a>
+        <relative-time datetime="2017-05-25T08:07:56Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9924</span>
+        <a href="https://github.com/apple/swift/pull/9924" class="title">[stdlib] Add Substring comparison benchmarks</a>
+        <relative-time datetime="2017-05-25T06:51:53Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9911</span>
+        <a href="https://github.com/apple/swift/pull/9911" class="title">[gardening] Add copyright header. Fix \t:s and spacing. Use isa instead of dyn_cast where appropriate.</a>
+        <relative-time datetime="2017-05-25T06:06:57Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9923</span>
+        <a href="https://github.com/apple/swift/pull/9923" class="title">Sema: Kill off old modeling of generic arguments</a>
+        <relative-time datetime="2017-05-25T05:02:08Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9920</span>
+        <a href="https://github.com/apple/swift/pull/9920" class="title">Allow lazy property initializers to reference instance members without explicit &#39;self.&#39;</a>
+        <relative-time datetime="2017-05-25T03:35:52Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9922</span>
+        <a href="https://github.com/apple/swift/pull/9922" class="title">Revert &quot;[stdlib] Add Substring comparison benchmarks&quot;</a>
+        <relative-time datetime="2017-05-25T03:22:53Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9919</span>
+        <a href="https://github.com/apple/swift/pull/9919" class="title">[Migrator] Don&#39;t take var -&gt; let fix-it</a>
+        <relative-time datetime="2017-05-25T02:30:02Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9917</span>
+        <a href="https://github.com/apple/swift/pull/9917" class="title">[stdlib] Add Substring comparison benchmarks</a>
+        <relative-time datetime="2017-05-25T02:22:18Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9916</span>
+        <a href="https://github.com/apple/swift/pull/9916" class="title">Lazier type checking of lazy vars</a>
+        <relative-time datetime="2017-05-25T01:04:15Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9918</span>
+        <a href="https://github.com/apple/swift/pull/9918" class="title">demangling: Drop the support of &quot;unmangled suffix&quot;</a>
+        <relative-time datetime="2017-05-25T00:44:30Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9824</span>
+        <a href="https://github.com/apple/swift/pull/9824" class="title">More member reference simplification</a>
+        <relative-time datetime="2017-05-24T23:13:58Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9914</span>
+        <a href="https://github.com/apple/swift/pull/9914" class="title">Every dot counts. Period.</a>
+        <relative-time datetime="2017-05-24T22:54:55Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9913</span>
+        <a href="https://github.com/apple/swift/pull/9913" class="title">Simplify IRGenDebugInfo submodule creation and support homonymous submodules</a>
+        <relative-time datetime="2017-05-24T22:27:02Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9856</span>
+        <a href="https://github.com/apple/swift/pull/9856" class="title">[GSB] AbstractProtocol requirements are never explicit.</a>
+        <relative-time datetime="2017-05-24T21:51:41Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9910</span>
+        <a href="https://github.com/apple/swift/pull/9910" class="title">IRGen: Bind metatypes from captured or regular arguments in partial apply forwarding thunks</a>
+        <relative-time datetime="2017-05-24T21:33:38Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9908</span>
+        <a href="https://github.com/apple/swift/pull/9908" class="title">Sema: Don&#39;t crash when key path literals appear in PartialKeyPath context.</a>
+        <relative-time datetime="2017-05-24T19:22:52Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9811</span>
+        <a href="https://github.com/apple/swift/pull/9811" class="title">[stdlib] Sequence internals with struct instead of class.</a>
+        <relative-time datetime="2017-05-24T19:05:35Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9884</span>
+        <a href="https://github.com/apple/swift/pull/9884" class="title">Improve TBD validation logic</a>
+        <relative-time datetime="2017-05-24T18:38:24Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9890</span>
+        <a href="https://github.com/apple/swift/pull/9890" class="title">Emit llvm.dbg.declare intrisics immediately after the described alloca.</a>
+        <relative-time datetime="2017-05-24T17:58:23Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9896</span>
+        <a href="https://github.com/apple/swift/pull/9896" class="title">[Exclusivity] Weaken assert when suggesting swap() Fix-It</a>
+        <relative-time datetime="2017-05-24T17:19:40Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9907</span>
+        <a href="https://github.com/apple/swift/pull/9907" class="title">[swiftc (40 vs. 5528)] Add crasher in swift::InFlightDiagnostic</a>
+        <relative-time datetime="2017-05-24T17:05:27Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9816</span>
+        <a href="https://github.com/apple/swift/pull/9816" class="title">[Foundation] Correct data subscript indexing to be offset from the base index</a>
+        <relative-time datetime="2017-05-24T16:43:56Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9891</span>
+        <a href="https://github.com/apple/swift/pull/9891" class="title">Fix demangler problems (crash, hang) with malformed symbols</a>
+        <relative-time datetime="2017-05-24T16:25:20Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9906</span>
+        <a href="https://github.com/apple/swift/pull/9906" class="title">[swiftc (39 vs. 5528)] Add crasher in swift::GenericSignatureBuilder::resolveSuperConformance</a>
+        <relative-time datetime="2017-05-24T15:37:54Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9905</span>
+        <a href="https://github.com/apple/swift/pull/9905" class="title">[swiftc (38 vs. 5528)] Add crasher in swift::TypeChecker::resolveWitness</a>
+        <relative-time datetime="2017-05-24T14:12:52Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9904</span>
+        <a href="https://github.com/apple/swift/pull/9904" class="title">[swiftc (37 vs. 5528)] Add crasher in swift::ASTVisitor</a>
+        <relative-time datetime="2017-05-24T12:34:39Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9903</span>
+        <a href="https://github.com/apple/swift/pull/9903" class="title">Kill a stray TAB</a>
+        <relative-time datetime="2017-05-24T12:28:20Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9902</span>
+        <a href="https://github.com/apple/swift/pull/9902" class="title">[swiftc (36 vs. 5528)] Add crasher in swift::isExtensionApplied</a>
+        <relative-time datetime="2017-05-24T11:11:23Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9901</span>
+        <a href="https://github.com/apple/swift/pull/9901" class="title">[swiftc (35 vs. 5528)] Add crasher in swift::Expr::walk(...)</a>
+        <relative-time datetime="2017-05-24T09:50:49Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9899</span>
+        <a href="https://github.com/apple/swift/pull/9899" class="title">Add an unfixed crasher and two fixed ones</a>
+        <relative-time datetime="2017-05-24T06:53:09Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9898</span>
+        <a href="https://github.com/apple/swift/pull/9898" class="title">[4.0] [SE-0160] [PrintAsObjC] Adopt Clang&#39;s new diagnose_if attribute.</a>
+        <relative-time datetime="2017-05-24T06:42:25Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9897</span>
+        <a href="https://github.com/apple/swift/pull/9897" class="title">[SE-0160] [PrintAsObjC] Adopt Clang&#39;s new diagnose_if attribute.</a>
+        <relative-time datetime="2017-05-24T05:37:02Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9895</span>
+        <a href="https://github.com/apple/swift/pull/9895" class="title">[swift-4.0-branch][stdlib] Moving the Array.filter to _ArrayProtocol</a>
+        <relative-time datetime="2017-05-24T05:13:33Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9894</span>
+        <a href="https://github.com/apple/swift/pull/9894" class="title">[Exclusivity] Weaken assert when suggesting swap() Fix-It</a>
+        <relative-time datetime="2017-05-24T04:02:09Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9888</span>
+        <a href="https://github.com/apple/swift/pull/9888" class="title">[stdlib] Moving the Array.filter to _ArrayProtocol</a>
+        <relative-time datetime="2017-05-24T03:59:28Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9893</span>
+        <a href="https://github.com/apple/swift/pull/9893" class="title">Update BinaryInteger default initializer documentation [NFC]</a>
+        <relative-time datetime="2017-05-24T03:06:17Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9887</span>
+        <a href="https://github.com/apple/swift/pull/9887" class="title">Emit the code to setup debug shadow copies of variables in the same scope</a>
+        <relative-time datetime="2017-05-24T01:44:13Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9889</span>
+        <a href="https://github.com/apple/swift/pull/9889" class="title">[Constraint Solver] Add some debugging output to isDeclAsSpecializedAs.</a>
+        <relative-time datetime="2017-05-24T01:31:45Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9862</span>
+        <a href="https://github.com/apple/swift/pull/9862" class="title">[Diagnostics] Add buffer offset information to the serialized diagnostics</a>
+        <relative-time datetime="2017-05-24T01:14:19Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9883</span>
+        <a href="https://github.com/apple/swift/pull/9883" class="title">Handle selector inference for a readwrite witness of a read-only req</a>
+        <relative-time datetime="2017-05-24T00:19:27Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9874</span>
+        <a href="https://github.com/apple/swift/pull/9874" class="title">Serialization: Create a deserialized EnumDecl before deserializing its dependency types.</a>
+        <relative-time datetime="2017-05-23T23:52:15Z">May 23, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9847</span>
+        <a href="https://github.com/apple/swift/pull/9847" class="title">[stdlib] Eliminate _Element</a>
+        <relative-time datetime="2017-05-23T23:44:56Z">May 23, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9886</span>
+        <a href="https://github.com/apple/swift/pull/9886" class="title">Demangler: replace an assert with a bail-condition.</a>
+        <relative-time datetime="2017-05-23T23:41:25Z">May 23, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9875</span>
+        <a href="https://github.com/apple/swift/pull/9875" class="title">[4.0] Serialization: Create a deserialized EnumDecl before deserializing its dependency types.</a>
+        <relative-time datetime="2017-05-23T22:44:43Z">May 23, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9798</span>
+        <a href="https://github.com/apple/swift/pull/9798" class="title">Inline stable grapheme fastpaths</a>
+        <relative-time datetime="2017-05-23T22:18:33Z">May 23, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9840</span>
+        <a href="https://github.com/apple/swift/pull/9840" class="title">Sema: Don&#39;t crash when type-checking a KeyPathExpr that&#39;s already type-checked.</a>
+        <relative-time datetime="2017-05-23T22:11:51Z">May 23, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--purple">Merged</span>
+        <span class="num">#9882</span>
+        <a href="https://github.com/apple/swift/pull/9882" class="title">Demangler: fix a hang in case a malformed symbol ends with an &#39;A&lt;digit&gt;&#39;</a>
+        <relative-time datetime="2017-05-23T21:58:37Z">May 23, 2017</relative-time>
+      </li>
+    </ul>
+
+    <h3 class="conversation-list-heading" id="proposed-pull-requests">
+      <span class="inner">
+        <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        <span class="text-emphasized">21</span>
+        Pull requests proposed by <span class="text-emphasized">15</span> people
+      </span>
+    </h3>
+    <ul class="simple-conversation-list varied-states">
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9885</span>
+        <a href="https://github.com/apple/swift/pull/9885" class="title">[Sema] Diagnose with full name of mismatched compound names</a>
+        <relative-time datetime="2017-05-23T22:55:47Z">May 23, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9900</span>
+        <a href="https://github.com/apple/swift/pull/9900" class="title">[WIP - DO NOT MERGE] Assert if we attempt to bind a type involving ErrorType.</a>
+        <relative-time datetime="2017-05-24T07:03:47Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9909</span>
+        <a href="https://github.com/apple/swift/pull/9909" class="title">[stdlib] Heterogeneous comparisons for concrete integer types</a>
+        <relative-time datetime="2017-05-24T17:06:11Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9912</span>
+        <a href="https://github.com/apple/swift/pull/9912" class="title">Minor script tweaks</a>
+        <relative-time datetime="2017-05-24T20:38:01Z">May 24, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9928</span>
+        <a href="https://github.com/apple/swift/pull/9928" class="title">[WIP - DO NOT MERGE] More updates for keeping a side map for types in the constraint solver</a>
+        <relative-time datetime="2017-05-25T06:35:01Z">May 25, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9935</span>
+        <a href="https://github.com/apple/swift/pull/9935" class="title">[WIP] An alternative design for heterogeneous comparison</a>
+        <relative-time datetime="2017-05-26T02:12:16Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9941</span>
+        <a href="https://github.com/apple/swift/pull/9941" class="title">Replace UTF8.EncodedScalar</a>
+        <relative-time datetime="2017-05-26T14:22:27Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9943</span>
+        <a href="https://github.com/apple/swift/pull/9943" class="title">[4.0] [Driver] Pass -warn-swift3-objc-inference-(minimal|complete) to the frontend</a>
+        <relative-time datetime="2017-05-26T17:42:11Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9945</span>
+        <a href="https://github.com/apple/swift/pull/9945" class="title">IRGen: Don&#39;t use global offset variables if we have a dependent layout and an Objective-C super class</a>
+        <relative-time datetime="2017-05-26T20:19:00Z">May 26, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9958</span>
+        <a href="https://github.com/apple/swift/pull/9958" class="title">SR-648: Allow swiftpm to statically link binaries on Linux</a>
+        <relative-time datetime="2017-05-27T14:50:37Z">May 27, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9963</span>
+        <a href="https://github.com/apple/swift/pull/9963" class="title">[ConstraintSolver] Skip generic overloads only if non-generic choices produce higher score solutions</a>
+        <relative-time datetime="2017-05-28T07:02:34Z">May 28, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9964</span>
+        <a href="https://github.com/apple/swift/pull/9964" class="title">[DO NOT MERGE] [closure-specializer] Support specialization of closures with address parameters</a>
+        <relative-time datetime="2017-05-28T20:33:53Z">May 28, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9966</span>
+        <a href="https://github.com/apple/swift/pull/9966" class="title">Avoid uses of incomplete types in ImmutablePointerSet.h.</a>
+        <relative-time datetime="2017-05-28T22:38:29Z">May 28, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9976</span>
+        <a href="https://github.com/apple/swift/pull/9976" class="title">Migration to DeclBaseName in diagnostic definitions</a>
+        <relative-time datetime="2017-05-30T10:55:10Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9977</span>
+        <a href="https://github.com/apple/swift/pull/9977" class="title">Remove getName method from ValueDecl</a>
+        <relative-time datetime="2017-05-30T10:57:04Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9978</span>
+        <a href="https://github.com/apple/swift/pull/9978" class="title">Remove implicit conversion from DeclBaseName to Identifier</a>
+        <relative-time datetime="2017-05-30T11:11:15Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9979</span>
+        <a href="https://github.com/apple/swift/pull/9979" class="title">Adjust printing to take into account special DeclNames</a>
+        <relative-time datetime="2017-05-30T13:24:16Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9983</span>
+        <a href="https://github.com/apple/swift/pull/9983" class="title">More TBD work</a>
+        <relative-time datetime="2017-05-30T18:13:48Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9988</span>
+        <a href="https://github.com/apple/swift/pull/9988" class="title">IDE Utils: For DeclNameViewer, we should use empty StringRef to represent empty argument label instead of using &quot;_&quot;.</a>
+        <relative-time datetime="2017-05-30T20:44:21Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9989</span>
+        <a href="https://github.com/apple/swift/pull/9989" class="title">Introduce special decl names</a>
+        <relative-time datetime="2017-05-30T21:04:33Z">May 30, 2017</relative-time>
+      </li>
+      <li>
+        <span class="State State--green">Proposed</span>
+        <span class="num">#9990</span>
+        <a href="https://github.com/apple/swift/pull/9990" class="title">Fix a test that was failing in resilient builds</a>
+        <relative-time datetime="2017-05-30T21:07:22Z">May 30, 2017</relative-time>
+      </li>
+    </ul>
+</div>
+
+
+
+    <div id="active_discussions" class="pulse-section">
+  <h3 class="conversation-list-heading">
+    <span class="inner">
+      <svg aria-hidden="true" class="octicon octicon-comment-discussion" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z"/></svg>
+      <span class="text-emphasized">12</span>
+      Unresolved conversations
+    </span>
+  </h3>
+  <p>
+    Sometimes conversations happen on old items that aren’t yet closed.
+    Here is a list of all the Issues and Pull Requests with unresolved
+    conversations.
+  </p>
+
+  <ul class="simple-conversation-list varied-states">
+    <li>
+      <strong class="meta">66 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9367</span>
+      <a href="https://github.com/apple/swift/pull/9367" class="title">[stdlib] DoubleWidth Implementation</a>
+      <relative-time datetime="2017-05-26T20:59:54Z">May 26, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">17 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9639</span>
+      <a href="https://github.com/apple/swift/pull/9639" class="title">[stdlib][WIP perf experiment] Replace AnySequence with Array in default Sequence methods</a>
+      <relative-time datetime="2017-05-25T21:44:22Z">May 25, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">11 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9879</span>
+      <a href="https://github.com/apple/swift/pull/9879" class="title">DO NOT MERGE: [constant-propagation] Re-enable compile-time overflow checks that support new integer protocols</a>
+      <relative-time datetime="2017-05-28T03:15:53Z">May 28, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">7 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9450</span>
+      <a href="https://github.com/apple/swift/pull/9450" class="title">Adding support for -sanitize=fuzzer flag.</a>
+      <relative-time datetime="2017-05-24T23:42:31Z">May 24, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">7 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9869</span>
+      <a href="https://github.com/apple/swift/pull/9869" class="title">Ensure fatalError message logged on Android</a>
+      <relative-time datetime="2017-05-30T21:29:34Z">May 30, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">5 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9806</span>
+      <a href="https://github.com/apple/swift/pull/9806" class="title">[stdlib] String index interchange, etc.</a>
+      <relative-time datetime="2017-05-26T14:57:52Z">May 26, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">4 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9880</span>
+      <a href="https://github.com/apple/swift/pull/9880" class="title">[Mangling] Include private discriminators in constructor manglings</a>
+      <relative-time datetime="2017-05-30T17:25:00Z">May 30, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">3 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#7744</span>
+      <a href="https://github.com/apple/swift/pull/7744" class="title">symbolicate-linux-fatal without too much buffering.</a>
+      <relative-time datetime="2017-05-26T18:18:41Z">May 26, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">3 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9496</span>
+      <a href="https://github.com/apple/swift/pull/9496" class="title">[Parse] [Sema] [SR-3174] Ignore local variables in selector</a>
+      <relative-time datetime="2017-05-25T22:20:22Z">May 25, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">1 new comment</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9413</span>
+      <a href="https://github.com/apple/swift/pull/9413" class="title">[AST] Eliminate IfConfigStmt</a>
+      <relative-time datetime="2017-05-30T18:58:41Z">May 30, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">1 new comment</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9619</span>
+      <a href="https://github.com/apple/swift/pull/9619" class="title">Synthesize Equatable/Hashable for complex enums, structs</a>
+      <relative-time datetime="2017-05-30T20:40:28Z">May 30, 2017</relative-time>
+    </li>
+    <li>
+      <strong class="meta">0 new comments</strong>
+      <span class="State State--green">Open</span>
+      <span class="num">#9785</span>
+      <a href="https://github.com/apple/swift/pull/9785" class="title">Added android/build-toolchain</a>
+      <relative-time datetime="2017-05-23T22:01:53Z">May 23, 2017</relative-time>
+    </li>
+  </ul>
+</div>
+
+</div>
+
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="container site-footer-container">
+  <div class="site-footer " role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2017 <span title="0.31196s from github-fe123-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-8a4318ffea09a0cdb8214b76cf2926b9f6a0ced318a317bed419db19214c690d.js"></script>
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-12370566edc60b404ac458967a7f2fa0d6696da99f37edf7deb1196f1aff5f0a.js"></script>
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-bad0bb796d41d7a44a58121accf0dd0bae0a713ee37bb34caa49417f27b51bbd.js"></script>
+    
+    
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/graphs-be51418661fcf1fb8380719f0b707d287611952c303295d61858860878f5645a.js"></script>
+
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="pulse">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="pulse">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+

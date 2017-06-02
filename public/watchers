@@ -1,0 +1,1595 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-148da7a2b8b9ad739a5a0b8b68683fed4ac7e50ce8185f17d86aa05e75ed376e.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-4cb6b37ae0c653978a80cfe0c9288fcb02f00f746d1e076237703e57761c8973.css" media="all" rel="stylesheet" />
+  
+  
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/site-533b8a15e9857d8168369b00b52ff589cba2fe9e3ecf8db1a110517b9814d246.css" media="all" rel="stylesheet" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Watchers · apple/swift · GitHub</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars0.githubusercontent.com/u/10639145?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="apple/swift" property="og:title" /><meta content="https://github.com/apple/swift" property="og:url" /><meta content="swift - The Swift Programming Language" property="og:description" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="FDFD:668E:25E8300:3ACE0E8:592DE4C7" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="/apple/swift/watchers" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="FDFD:668E:25E8300:3ACE0E8:592DE4C7" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/repositories/watchers" data-pjax-transient="true" name="analytics-location" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MTgzYTRiMDM1ZjRhY2JhMjAyODhkZjgxYWVjYjRiNTdlNGI4ZmYzNDBhYzBjMGNjYWQyYmYxMGI5NGQxM2M3Znx7InJlbW90ZV9hZGRyZXNzIjoiMzIuOTcuMTEwLjU2IiwicmVxdWVzdF9pZCI6IkZERkQ6NjY4RToyNUU4MzAwOjNBQ0UwRTg6NTkyREU0QzciLCJ0aW1lc3RhbXAiOjE0OTYxNzk5MTIsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+
+  <meta name="html-safe-nonce" content="f02d0619282b3e40d5574641cd00168539207be8">
+
+  <meta http-equiv="x-pjax-version" content="793fefe1855f41c37db2ad70f81dd4db">
+  
+
+    
+  <meta name="description" content="swift - The Swift Programming Language">
+  <meta name="go-import" content="github.com/apple/swift git https://github.com/apple/swift.git">
+
+  <meta content="10639145" name="octolytics-dimension-user_id" /><meta content="apple" name="octolytics-dimension-user_login" /><meta content="44838949" name="octolytics-dimension-repository_id" /><meta content="apple/swift" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="44838949" name="octolytics-dimension-repository_network_root_id" /><meta content="apple/swift" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="commits/master.atom" rel="alternate" title="Recent Commits to swift:master" type="application/atom+xml">
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="watchers#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+          <header class="site-header js-details-container Details" role="banner">
+  <div class="site-nav-container">
+    <a class="header-logo-invertocat" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+
+    <button class="btn-link float-right site-header-toggle js-details-target" type="button" aria-label="Toggle navigation">
+      <svg aria-hidden="true" class="octicon octicon-three-bars" height="24" version="1.1" viewBox="0 0 12 16" width="18"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"/></svg>
+    </button>
+
+    <div class="site-header-menu">
+      <nav class="site-header-nav">
+        <a href="https://github.com/features" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features">
+          Features
+</a>        <a href="https://github.com/business" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">
+          Business
+</a>        <a href="https://github.com/explore" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
+          Explore
+</a>            <a href="https://github.com/marketplace" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace">
+              Marketplace
+</a>        <a href="https://github.com/pricing" class="js-selected-navigation-item nav-item" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing">
+          Pricing
+</a>      </nav>
+
+      <div class="site-header-actions">
+          <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="https://github.com/apple/swift/search" class="js-site-search-form" data-scoped-search-url="/apple/swift/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="watchers" class="header-search-scope no-underline">This repository</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+
+          <a class="text-bold site-header-link" href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+            <span class="text-gray">or</span>
+            <a class="text-bold site-header-link" href="https://github.com/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+        
+
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+      <div class="container repohead-details-container">
+
+        <ul class="pagehead-actions">
+  <li>
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="watchers"
+     aria-label="2445 users are watching this repository">
+    2,445
+  </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="stargazers"
+      aria-label="38617 users starred this repository">
+      38,617
+    </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="network" class="social-count"
+       aria-label="5777 users forked this repository">
+      5,777
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a href="https://github.com/apple" class="url fn" rel="author">apple</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="https://github.com/apple/swift" data-pjax="#js-repo-pjax-container">swift</a></strong>
+
+</h1>
+
+      </div>
+      <div class="container">
+        
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/apple/swift" class="js-selected-navigation-item reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /apple/swift" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /apple/swift/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">163</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+
+
+    <div class="reponav-dropdown js-menu-container">
+      <button type="button" class="btn-link reponav-item reponav-dropdown js-menu-target " data-no-toggle aria-expanded="false" aria-haspopup="true">
+        Insights
+        <svg aria-hidden="true" class="octicon octicon-triangle-down v-align-middle text-gray" height="11" version="1.1" viewBox="0 0 12 16" width="8"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"/></svg>
+      </button>
+      <div class="dropdown-menu-content js-menu-content">
+        <div class="dropdown-menu dropdown-menu-sw">
+          <a class="dropdown-item" href="pulse" data-skip-pjax>
+            <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"/></svg>
+            Pulse
+          </a>
+          <a class="dropdown-item" href="graphs" data-skip-pjax>
+            <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+            Graphs
+          </a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+      </div>
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+          
+<div id="repos">
+  <h2>Watchers</h2>
+
+    <ol class="follow-list clearfix">
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/bitjammer"><img alt="@bitjammer" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/693829?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="David Farler"><a href="https://github.com/bitjammer">David Farler</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple, Inc.">Apple, Inc.</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/gribozavr"><img alt="@gribozavr" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/1120569?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Dmitri Gribenko"><a href="https://github.com/gribozavr">Dmitri Gribenko</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 11, 2011</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/AppleHQ"><img alt="@AppleHQ" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/10639098?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="AppleHQ"><a href="https://github.com/AppleHQ">AppleHQ</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Jan 21, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/tdpl"><img alt="@tdpl" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/14192858?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="tdpl"><a href="https://github.com/tdpl">tdpl</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Sep 9, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/jrose-apple"><img alt="@jrose-apple" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/15097531?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Jordan Rose"><a href="https://github.com/jrose-apple">Jordan Rose</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple">Apple</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/ematejska"><img alt="@ematejska" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15254638?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="ematejska"><a href="https://github.com/ematejska">ematejska</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 22, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/aschwaighofer"><img alt="@aschwaighofer" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15268288?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Arnold Schwaighofer"><a href="https://github.com/aschwaighofer">Arnold Schwaighofer</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 23, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/devincoughlin"><img alt="@devincoughlin" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/2623655?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Devin Coughlin"><a href="https://github.com/devincoughlin">Devin Coughlin</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple">Apple</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/eeckstein"><img alt="@eeckstein" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15270291?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="eeckstein"><a href="https://github.com/eeckstein">eeckstein</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 23, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/jckarter"><img alt="@jckarter" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/147281?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Joe Groff"><a href="https://github.com/jckarter">Joe Groff</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple">Apple</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/nkcsgexi"><img alt="@nkcsgexi" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/2191945?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Xi Ge"><a href="https://github.com/nkcsgexi">Xi Ge</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for @apple ">@apple </span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/AnnaZaks"><img alt="@AnnaZaks" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/15273619?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="AnnaZaks"><a href="https://github.com/AnnaZaks">AnnaZaks</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 24, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/denisvnukov"><img alt="@denisvnukov" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/2170371?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Denis Vnukov"><a href="https://github.com/denisvnukov">Denis Vnukov</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Aug 17, 2012</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/adrian-prantl"><img alt="@adrian-prantl" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/2251653?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="adrian-prantl"><a href="https://github.com/adrian-prantl">adrian-prantl</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Aug 30, 2012</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/moiseev"><img alt="@moiseev" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/64011?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Maxim Moiseev"><a href="https://github.com/moiseev">Maxim Moiseev</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for "></span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/rudkx"><img alt="@rudkx" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/162784?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Mark Lacey"><a href="https://github.com/rudkx">Mark Lacey</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from San Francisco">San Francisco</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/egranata"><img alt="@egranata" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15268312?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Enrico Granata"><a href="https://github.com/egranata">Enrico Granata</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for @google ">@google </span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/jimingham"><img alt="@jimingham" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15268571?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="jimingham"><a href="https://github.com/jimingham">jimingham</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 23, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/rjmccall"><img alt="@rjmccall" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/793869?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="John McCall"><a href="https://github.com/rjmccall">John McCall</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for @apple">@apple</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/akyrtzi"><img alt="@akyrtzi" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/46970?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Argyrios Kyrtzidis"><a href="https://github.com/akyrtzi">Argyrios Kyrtzidis</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Jan 16, 2009</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/gottesmm"><img alt="@gottesmm" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/499423?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Michael Gottesman"><a href="https://github.com/gottesmm">Michael Gottesman</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple, Inc.">Apple, Inc.</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/gparker42"><img alt="@gparker42" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/992218?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Greg Parker"><a href="https://github.com/gparker42">Greg Parker</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Aug 20, 2011</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/k8stone"><img alt="@k8stone" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/15329771?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Kate"><a href="https://github.com/k8stone">Kate</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from Santa Cruz, CA">Santa Cruz, CA</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/andreslp"><img alt="@andreslp" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/442158?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="andreslp"><a href="https://github.com/andreslp">andreslp</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 16, 2010</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/stormbrew"><img alt="@stormbrew" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/54328?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="stormbrew"><a href="https://github.com/stormbrew">stormbrew</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from Edmonton, Alberta, Canada">Edmonton, Alberta, Canada</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/sonnyfalk"><img alt="@sonnyfalk" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/15374117?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="sonnyfalk"><a href="https://github.com/sonnyfalk">sonnyfalk</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 29, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/jackhl"><img alt="@jackhl" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/641684?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Jack Lawrence"><a href="https://github.com/jackhl">Jack Lawrence</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Feb 28, 2011</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/shahmishal"><img alt="@shahmishal" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/2727770?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Mishal Shah"><a href="https://github.com/shahmishal">Mishal Shah</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple">Apple</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/swift-ci"><img alt="@swift-ci" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15467072?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="swift-ci"><a href="https://github.com/swift-ci">swift-ci</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 30, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/tkremenek"><img alt="@tkremenek" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/3087023?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Ted Kremenek"><a href="https://github.com/tkremenek">Ted Kremenek</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple">Apple</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/stephentyrone"><img alt="@stephentyrone" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/641446?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Stephen Canon"><a href="https://github.com/stephentyrone">Stephen Canon</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from Lebanon, NH">Lebanon, NH</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/scallanan"><img alt="@scallanan" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/15270369?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Sean Callanan"><a href="https://github.com/scallanan">Sean Callanan</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Oct 23, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/phausler"><img alt="@phausler" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/278470?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Philippe Hausler"><a href="https://github.com/phausler">Philippe Hausler</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from San Francisco">San Francisco</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/atrick"><img alt="@atrick" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/2165663?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Andrew Trick"><a href="https://github.com/atrick">Andrew Trick</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Aug 16, 2012</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/dexonsmith"><img alt="@dexonsmith" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/1334620?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Duncan P. N. Exon Smith"><a href="https://github.com/dexonsmith">Duncan P. N. Exon Smith</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Jan 16, 2012</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/lgerbarg"><img alt="@lgerbarg" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/49431?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Louis Gerbarg"><a href="https://github.com/lgerbarg">Louis Gerbarg</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Jan 26, 2009</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/vedantk"><img alt="@vedantk" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/97683?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Vedant Kumar"><a href="https://github.com/vedantk">Vedant Kumar</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple">Apple</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/qcolombet"><img alt="@qcolombet" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15787733?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="qcolombet"><a href="https://github.com/qcolombet">qcolombet</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Nov 10, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/ahatanaka"><img alt="@ahatanaka" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15806780?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="ahatanaka"><a href="https://github.com/ahatanaka">ahatanaka</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Nov 11, 2015</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/das"><img alt="@das" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/15536?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Daniel A. Steffen"><a href="https://github.com/das">Daniel A. Steffen</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple, Inc.">Apple, Inc.</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/mike-ferris-apple"><img alt="@mike-ferris-apple" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/15824979?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Mike Ferris"><a href="https://github.com/mike-ferris-apple">Mike Ferris</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apple Inc.">Apple Inc.</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/pbohrer"><img alt="@pbohrer" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/756974?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Patrick Bohrer"><a href="https://github.com/pbohrer">Patrick Bohrer</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from Austin, Texas">Austin, Texas</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/CodaFi"><img alt="@CodaFi" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/1896383?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Robert Widmann"><a href="https://github.com/CodaFi">Robert Widmann</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for CodaFi">CodaFi</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/dennisweissmann"><img alt="@dennisweissmann" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/8017512?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Dennis Weissmann"><a href="https://github.com/dennisweissmann">Dennis Weissmann</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from Germany, Worms">Germany, Worms</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/apparentsoft"><img alt="@apparentsoft" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/189330?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Jacob Gorban"><a href="https://github.com/apparentsoft">Jacob Gorban</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Apparent Software">Apparent Software</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/boblmartens"><img alt="@boblmartens" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/12119?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Bob Martens"><a href="https://github.com/boblmartens">Bob Martens</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Martens Family Farms">Martens Family Farms</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/epy0n0ff"><img alt="@epy0n0ff" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/1400122?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="epy0n0ff"><a href="https://github.com/epy0n0ff">epy0n0ff</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from 二次元">二次元</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/gustavosaume"><img alt="@gustavosaume" class="avatar" height="75" src="https://avatars1.githubusercontent.com/u/684801?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Gustavo Saume"><a href="https://github.com/gustavosaume">Gustavo Saume</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-clock" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg> Joined on Mar 22, 2011</p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/infiniteNIL"><img alt="@infiniteNIL" class="avatar" height="75" src="https://avatars3.githubusercontent.com/u/352414?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Rod Schmidt"><a href="https://github.com/infiniteNIL">Rod Schmidt</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for infiniteNIL Software">infiniteNIL Software</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/janweinkauff"><img alt="@janweinkauff" class="avatar" height="75" src="https://avatars2.githubusercontent.com/u/142565?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Jan Weinkauff"><a href="https://github.com/janweinkauff">Jan Weinkauff</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg> <span class="css-truncate css-truncate-target" title="Works for Dreimannzelt">Dreimannzelt</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+        
+<li class="follow-list-item float-left border-bottom">
+  <div class="follower-list-align-top d-inline-block position-relative" style="height: 75px">
+
+    <a href="https://github.com/mstfy"><img alt="@mstfy" class="avatar" height="75" src="https://avatars0.githubusercontent.com/u/5105861?v=3&amp;s=150" width="75" /></a>
+  </div>
+
+  <div class="follower-list-align-top d-inline-block ml-3">
+    <h3 class="follow-list-name"><span class="css-truncate css-truncate-target" title="Mustafa Yusuf"><a href="https://github.com/mstfy">Mustafa Yusuf</a></span></h3>
+    <p class="follow-list-info"><svg aria-hidden="true" class="octicon octicon-location" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M6 0C2.69 0 0 2.5 0 5.5 0 10.02 6 16 6 16s6-5.98 6-10.5C12 2.5 9.31 0 6 0zm0 14.55C4.14 12.52 1 8.44 1 5.5 1 3.02 3.25 1 6 1c1.34 0 2.61.48 3.56 1.36.92.86 1.44 1.97 1.44 3.14 0 2.94-3.14 7.02-5 9.05zM8 5.5c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg> <span class="css-truncate css-truncate-target" title="Is from Turkey">Turkey</span></p>
+
+    
+
+  <span class="user-following-container">
+    <span class="follow">
+      <a href="https://github.com/login?return_to=%2Fapple%2Fswift%2Fwatchers" class="btn btn-sm ">
+        Follow
+      </a>
+    </span>
+  </span>
+
+  </div>
+</li>
+
+    </ol>
+
+    <div class="paginate-container">
+      <div class="pagination" data-pjax="true"><span class="previous_page disabled">Previous</span> <em class="current">1</em> <a rel="next" href="https://github.com/apple/swift/watchers?page=2">2</a> <a href="https://github.com/apple/swift/watchers?page=3">3</a> <a href="https://github.com/apple/swift/watchers?page=4">4</a> <a href="https://github.com/apple/swift/watchers?page=5">5</a> <span class="gap">&hellip;</span> <a href="https://github.com/apple/swift/watchers?page=47">47</a> <a href="https://github.com/apple/swift/watchers?page=48">48</a> <a class="next_page" rel="next" href="https://github.com/apple/swift/watchers?page=2">Next</a></div>
+    </div>
+</div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="container site-footer-container">
+  <div class="site-footer " role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2017 <span title="0.27517s from github-fe-dc3412d.cp1-iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/compat-8a4318ffea09a0cdb8214b76cf2926b9f6a0ced318a317bed419db19214c690d.js"></script>
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-12370566edc60b404ac458967a7f2fa0d6696da99f37edf7deb1196f1aff5f0a.js"></script>
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-bad0bb796d41d7a44a58121accf0dd0bae0a713ee37bb34caa49417f27b51bbd.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="watchers">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="watchers">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>
+

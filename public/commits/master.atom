@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/apple/swift/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/apple/swift/commits/master.atom"/>
+  <title>Recent Commits to swift:master</title>
+  <updated>2017-05-30T21:26:32Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/85c83405e13a1bc94ca9f34d77faeffbe3fa71dc</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/85c83405e13a1bc94ca9f34d77faeffbe3fa71dc"/>
+    <title>
+        Merge pull request #9986 from CodaFi/la-tex-marche
+    </title>
+    <updated>2017-05-30T21:26:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/15467072?v=3&amp;s=30"/>
+    <author>
+      <name>swift-ci</name>
+      <uri>https://github.com/swift-ci</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9986 from CodaFi/la-tex-marche&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1901dd9971d9170fc1148a65b85da6413c6191a5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/1901dd9971d9170fc1148a65b85da6413c6191a5"/>
+    <title>
+        Merge pull request #9725 from norio-nomura/fix-sr-4921
+    </title>
+    <updated>2017-05-30T21:26:28Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/15467072?v=3&amp;s=30"/>
+    <author>
+      <name>swift-ci</name>
+      <uri>https://github.com/swift-ci</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9725 from norio-nomura/fix-sr-4921&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ab23e344afcecdb557f27d645397fd89d2474875</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/ab23e344afcecdb557f27d645397fd89d2474875"/>
+    <title>
+        Merge pull request #9984 from apple/cmake-patchup-1
+    </title>
+    <updated>2017-05-30T21:24:05Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/44065?v=3&amp;s=30"/>
+    <author>
+      <name>dabrahams</name>
+      <uri>https://github.com/dabrahams</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9984 from apple/cmake-patchup-1
+
+Remove bogus options from benchmark build&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d1b0e67620fc6cf94a5c77ee99fb08093d8a6037</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/d1b0e67620fc6cf94a5c77ee99fb08093d8a6037"/>
+    <title>
+        swift-api-digester: teach the tool do detect APINotes&#39; moving one mem…
+    </title>
+    <updated>2017-05-30T21:23:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars1.githubusercontent.com/u/2191945?v=3&amp;s=30"/>
+    <author>
+      <name>nkcsgexi</name>
+      <uri>https://github.com/nkcsgexi</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;swift-api-digester: teach the tool do detect APINotes&amp;#39; moving one member variable/method to another type. (#9985)
+
+Different from type hoist that moves global variables to static member
+variables, we&amp;#39;ve also seen member variables being moved among different
+types via apinotes. Swift-api-digester should be able to detect such
+case so that migrator can handle them properly.
+
+rdar://32466196&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1043628688e6c881cb877eef9d0b85c60b556360</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/1043628688e6c881cb877eef9d0b85c60b556360"/>
+    <title>
+        Merge pull request #9987 from swiftix/closure-specializer-improvements3
+    </title>
+    <updated>2017-05-30T21:13:41Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/15327066?v=3&amp;s=30"/>
+    <author>
+      <name>swiftix</name>
+      <uri>https://github.com/swiftix</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9987 from swiftix/closure-specializer-improvements3
+
+[closure-specializer] Support specialization of closures with @inout address parameters&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3ad783ed14f88f084d368f431096a91ca24965b2</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/3ad783ed14f88f084d368f431096a91ca24965b2"/>
+    <title>
+        Merge pull request #9975 from ahoppen/pdm-debugger2
+    </title>
+    <updated>2017-05-30T20:39:33Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/4062178?v=3&amp;s=30"/>
+    <author>
+      <name>ahoppen</name>
+      <uri>https://github.com/ahoppen</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9975 from ahoppen/pdm-debugger2
+
+[Debugger] Migration to DeclBaseName in preparation for special decl names&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/597dc8ef645b1dbdeb168dbcc115470539bab027</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/597dc8ef645b1dbdeb168dbcc115470539bab027"/>
+    <title>
+        [closure-specializer] Support specialization of closures with address…
+    </title>
+    <updated>2017-05-30T20:35:44Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/15327066?v=3&amp;s=30"/>
+    <author>
+      <name>swiftix</name>
+      <uri>https://github.com/swiftix</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;[closure-specializer] Support specialization of closures with address parameters&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9f0b2c7da4f0ba577aeee363e04fcb13084fa578</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/9f0b2c7da4f0ba577aeee363e04fcb13084fa578"/>
+    <title>
+        Update latex_paper_size to latex_elements.papersize
+    </title>
+    <updated>2017-05-30T20:19:31Z</updated>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/d972db2b6ee8b77746ce7122663eb4f8?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=x&amp;s=30"/>
+    <author>
+      <name></name>
+      <email>rwidmann@apple.com</email>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update latex_paper_size to latex_elements.papersize&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9e76bc371dc6a99fd66a404425b6724589f1a47d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/9e76bc371dc6a99fd66a404425b6724589f1a47d"/>
+    <title>
+        Merge pull request #9771 from Jnosh/patch-1
+    </title>
+    <updated>2017-05-30T20:09:15Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/15467072?v=3&amp;s=30"/>
+    <author>
+      <name>swift-ci</name>
+      <uri>https://github.com/swift-ci</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9771 from Jnosh/patch-1&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5447d34f487b95c4be9411a7fdca9fd43a92084a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/5447d34f487b95c4be9411a7fdca9fd43a92084a"/>
+    <title>
+        Merge pull request #9981 from DougGregor/gsb-never-always-partial
+    </title>
+    <updated>2017-05-30T19:56:12Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/989428?v=3&amp;s=30"/>
+    <author>
+      <name>DougGregor</name>
+      <uri>https://github.com/DougGregor</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9981 from DougGregor/gsb-never-always-partial
+
+[GSB] *Almost* eliminate the &amp;quot;AlwaysPartial&amp;quot; archetype resolution kind&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a9733cb8dbaba6009528fc2ab41729598ed54a75</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/a9733cb8dbaba6009528fc2ab41729598ed54a75"/>
+    <title>
+        [GSB] Resolve dependent member types in same-type and superclass cons…
+    </title>
+    <updated>2017-05-30T18:43:53Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/989428?v=3&amp;s=30"/>
+    <author>
+      <name>DougGregor</name>
+      <uri>https://github.com/DougGregor</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;[GSB] Resolve dependent member types in same-type and superclass constraints.
+
+Once we&amp;#39;re finalizing same-type-to-concrete and superclass
+constraints, replace any unresolved DependentMemberTypes with their
+resolved counterpairs. This allows us to simplify
+DependentGenericTypeResolver, which only builds unresolved
+DependentMemberTypes now, and eliminates the penultimate use of
+ArchetypeResolutionKind::AlwaysPartial.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7f9380d0989e4ad89ef1d1b59a015461ef796cac</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/7f9380d0989e4ad89ef1d1b59a015461ef796cac"/>
+    <title>
+        Remove bogus options from benchmark build
+    </title>
+    <updated>2017-05-30T18:18:41Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/44065?v=3&amp;s=30"/>
+    <author>
+      <name>dabrahams</name>
+      <uri>https://github.com/dabrahams</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Remove bogus options from benchmark build
+
+This option is misleading, and never should have been there in the first place.  Fortunately it was having no effect because the standard library is already compiled to SIL and the internal checks have been eliminated from any benchmark build.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/773e14422d89695ba482807aad91f62dfa6880c8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/773e14422d89695ba482807aad91f62dfa6880c8"/>
+    <title>
+        Eliminate most uses of ArchetypeResolutionKind::AlwaysPartial.
+    </title>
+    <updated>2017-05-30T18:00:24Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/989428?v=3&amp;s=30"/>
+    <author>
+      <name>DougGregor</name>
+      <uri>https://github.com/DougGregor</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Eliminate most uses of ArchetypeResolutionKind::AlwaysPartial.
+
+When resolving archetypes using the &amp;quot;always partial&amp;quot; resolution kind,
+we allow the system to form potential archetypes which might be
+invalid. Start limiting the use of this &amp;quot;always partial&amp;quot; resolution
+kind, so that it can eventually be removed entirely to simplify the
+invariants of the GenericSignatureBuilder.
+
+Each of the callers should either be working with complete,
+well-formed archetypes or they should not force any resolution this
+early.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a630671772170953f520856873e9abd57f305f31</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/a630671772170953f520856873e9abd57f305f31"/>
+    <title>
+        Merge pull request #9982 from benlangmuir/req-assert
+    </title>
+    <updated>2017-05-30T17:55:59Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/15467072?v=3&amp;s=30"/>
+    <author>
+      <name>swift-ci</name>
+      <uri>https://github.com/swift-ci</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9982 from benlangmuir/req-assert&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/56b314f7414d2834165e1ca19b5a315a5781e634</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/56b314f7414d2834165e1ca19b5a315a5781e634"/>
+    <title>
+        Fix documentation build (#9980)
+    </title>
+    <updated>2017-05-30T17:50:03Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars2.githubusercontent.com/u/14606?v=3&amp;s=30"/>
+    <author>
+      <name>danielpunkass</name>
+      <uri>https://github.com/danielpunkass</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix documentation build (#9980)
+
+* Fix a documentation build failure caused by missing _ underscore in footnote citation.
+
+* Get archive/LangRef.html building again. I&amp;#39;m not sure this is the most desirable way to address the failure to locate archive/LangRef.html but I confirmed this causes the desired _build/html/archive/LangRef.html to be created when making docs.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1cab613fa9c74c7f6e608de948a29b3ee2b46a09</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/1cab613fa9c74c7f6e608de948a29b3ee2b46a09"/>
+    <title>
+        [test] Mark two crashers with REQUIRES: asserts
+    </title>
+    <updated>2017-05-30T17:36:16Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/3412956?v=3&amp;s=30"/>
+    <author>
+      <name>benlangmuir</name>
+      <uri>https://github.com/benlangmuir</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;[test] Mark two crashers with REQUIRES: asserts&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/6c836dbd04a83bf2183726369e3c06859a2c10f0</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/6c836dbd04a83bf2183726369e3c06859a2c10f0"/>
+    <title>
+        Merge pull request #9949 from moiseev/renames
+    </title>
+    <updated>2017-05-30T17:26:01Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/64011?v=3&amp;s=30"/>
+    <author>
+      <name>moiseev</name>
+      <uri>https://github.com/moiseev</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9949 from moiseev/renames
+
+[stdlib] Renames and tests for Swift 3 compatibility mode&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/458be55a97b286b0edf9a1ad9a523df58c8cf21d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/458be55a97b286b0edf9a1ad9a523df58c8cf21d"/>
+    <title>
+        Merge pull request #9974 from xedin/crasher-28664
+    </title>
+    <updated>2017-05-30T10:19:40Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/15467072?v=3&amp;s=30"/>
+    <author>
+      <name>swift-ci</name>
+      <uri>https://github.com/swift-ci</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9974 from xedin/crasher-28664&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/da4232e546f9543c852651c7f9bd429e01cd4c88</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/da4232e546f9543c852651c7f9bd429e01cd4c88"/>
+    <title>
+        [Diagnostics] Fix checking for presence of type variables in closure …
+    </title>
+    <updated>2017-05-30T09:42:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/21240?v=3&amp;s=30"/>
+    <author>
+      <name>xedin</name>
+      <uri>https://github.com/xedin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;[Diagnostics] Fix checking for presence of type variables in closure return expression
+
+Instead of validating sub-expressions included in the closure&amp;#39;s result
+`diagnoseAmbiguousMultiStatementClosure` was only checking parent expression
+by mistake.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9c1e9756e40f43afa2ad0f88cc4f11892ce9ff71</id>
+    <link type="text/html" rel="alternate" href="https://github.com/apple/swift/commit/9c1e9756e40f43afa2ad0f88cc4f11892ce9ff71"/>
+    <title>
+        Merge pull request #9971 from xedin/sr-4301
+    </title>
+    <updated>2017-05-30T06:16:45Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/21240?v=3&amp;s=30"/>
+    <author>
+      <name>xedin</name>
+      <uri>https://github.com/xedin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #9971 from xedin/sr-4301
+
+[QoI] Fix crash when constructing existential metatype without &amp;#39;.init&amp;#39;&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>
