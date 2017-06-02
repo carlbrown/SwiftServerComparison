@@ -6,6 +6,10 @@ import PerfectHTTPServer
 let server = HTTPServer()
 
 var routes = Routes()
+routes.add(method: .get, uri: "/ping", handler: { request, response in
+    response.setBody(string: "OK")
+    response.completed()
+})
 
 server.addRoutes(routes)
 

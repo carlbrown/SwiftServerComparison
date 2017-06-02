@@ -51,8 +51,10 @@ do
 		;;
 	-t|--testbed|--test_bed)
 		if [ -z "$2" ] ; then usage; fi
-		TESTBED="${2%%TestBed*}TestBed"
-		GIT_REPO="SwiftServerComparison"
+		if [ "${2%%TestBed*}" != "$TESTBED" ] ; then
+			TESTBED="${2%%TestBed*}TestBed"
+			GIT_REPO="SwiftServerComparison"
+		fi
 		shift # skip argument
 		;;
 	*)

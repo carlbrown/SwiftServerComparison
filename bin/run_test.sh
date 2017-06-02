@@ -102,8 +102,10 @@ do
 		;;
 	-t|--testbed|--test_bed)
 		if [ -z "$2" ] ; then usage; fi
-		TESTBED="${2%%TestBed*}TestBed"
-		TESTBEDARG="-t ${2%%TestBed*}"
+		if [ "${2%%TestBed*}" != "$TESTBED" ] ; then
+			TESTBED="${2%%TestBed*}TestBed"
+			TESTBEDARG="-t ${2%%TestBed*}"
+		fi
 		shift # skip argument
 		;;
 	*)
