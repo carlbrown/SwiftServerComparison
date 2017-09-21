@@ -15,7 +15,7 @@ GIT_REPO="SwiftServerHttpPerf"
 DIRECTORY="SwiftServerHttpPerf"
 
 usage() {
-	echo "Usage:$0 [-?h] [-p port ] [-d date_override_in_seconds_since_epoch] [-q queue_count] [-a accept_count] [-t <Vapor|Kitura|Perfect>]" >&2
+	echo "Usage:$0 [-?h] [-p port ] [-d date_override_in_seconds_since_epoch] [-q queue_count] [-a accept_count] [-m <heaptrack|memcheck|callgrind|massif>] [-t <Vapor|Kitura|Perfect>]" >&2
 	exit 1
 }
 
@@ -49,6 +49,18 @@ do
 		QUEUES="$2"
 		shift # skip argument
 		;;
+	-m|--memory|--memory_diagnostic)
+		if [ -z "$2" ] ; then usage; fi
+			if [ "${2}" != "$MEMORY_DIAGNOSTIC" ] ; then
+				MEMORY_DIAGNOSTIC="${2}"
+				unset MEMORY_DIAGNOSTIC_ARGS
+				if [ "$MEMORY_DIAGNOSTIC" != "heaptrack" ] ; then
+					MEMORY_DIAGNOSTIC_ARGS="--tool=$MEMORY_DIAGNOSTIC"
+					MEMORY_DIAGNOSTIC="valgrind"
+				fi
+			fi
+		shift # skip argument
+		;;
 	-t|--testbed|--test_bed)
 		if [ -z "$2" ] ; then usage; fi
 		if [ "${2%%TestBed*}" != "$TESTBED" ] ; then
@@ -68,6 +80,11 @@ export PORT
 export QUEUES
 export ACCEPTS
 
+export DATE
+
+if [ ! -d $HOME/test_runs/$DATE ] ; then
+	mkdir -p $HOME/test_runs/$DATE
+fi
 
 if [ -d "$HOME/.swiftenv" -a -x "$HOME/.swiftenv/bin/swiftenv" ] ; then
 	export SWIFTENV_ROOT="$HOME/.swiftenv"
@@ -95,6 +112,9 @@ git reset --hard origin/$BRANCH
 if [ "$GIT_REPO" != "$TESTBED" ] ; then
 	cd "$TESTBED"
 fi
+
+pwd > $HOME/test_runs/$DATE/testbed_dir_$PORT.txt
+
 rm -rf .build Packages Package.pins
 
 swift package fetch
@@ -116,8 +136,8 @@ if [ ! -x ./.build/debug/$TESTBED ] ; then
 fi
 
 while [ : ] ; do
-	echo "Attempting to Start Server on port $PORT with $QUEUES serial queues and $ACCEPTS socket accept count on tty `tty`"
-	./.build/debug/$TESTBED
-	$SCRIPT_DIR/archive_core_next.sh ./.build/debug/$TESTBED $PORT $DATE &
+	echo "Attempting to Start Server $MEMORY_DIAGNOSTIC on port $PORT with $QUEUES serial queues and $ACCEPTS socket accept count on tty `tty` in `pwd`"
+	$MEMORY_DIAGNOSTIC $MEMORY_DIAGNOSTIC_ARGS ./.build/debug/$TESTBED
+	$SCRIPT_DIR/archive_core.sh ./.build/debug/$TESTBED $PORT $DATE &
 done
 

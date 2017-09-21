@@ -28,7 +28,7 @@ TEST_URL="http://127.0.0.1"
 TESTBED="SwiftServerHttpPerf"
 
 usage() {
-	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-p port_to_start_first_server_process] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura>"] >&2
+	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura>]" >&2
 	exit 1
 }
 
@@ -108,6 +108,13 @@ do
 		fi
 		shift # skip argument
 		;;
+	-m|--memory|--memory_diagnostic)
+		if [ -z "$2" ] ; then usage; fi
+		if [ "${2}" != "$MEMORY_DIAGNOSTIC" ] ; then
+			MEMORY_DIAGNOSTIC="-m ${2}"
+		fi
+		shift # skip argument
+		;;
 	*)
 		usage
 		;;
@@ -157,12 +164,12 @@ fi
 
 if [ ! -z "$REMOTE_HOST" ] ; then
 	if [ ! -z "$REMOTE_USER" ] ; then
-		ssh $REMOTE_HOST -l $REMOTE_USER $REMOTE_SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $TESTBEDARG $ACCEPTS $QUEUES
+		ssh $REMOTE_HOST -l $REMOTE_USER $REMOTE_SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $MEMORY_DIAGNOSTIC $TESTBEDARG $ACCEPTS $QUEUES
 	else
-		ssh $REMOTE_HOST $REMOTE_SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $TESTBEDARG $ACCEPTS $QUEUES
+		ssh $REMOTE_HOST $REMOTE_SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $MEMORY_DIAGNOSTIC $TESTBEDARG $ACCEPTS $QUEUES
 	fi
 else
-	$SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $ACCEPTS $TESTBEDARG $QUEUES
+	$SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $ACCEPTS $MEMORY_DIAGNOSTIC $TESTBEDARG $QUEUES
 fi
 
 if [ $? -ne 0 ] ; then
@@ -208,12 +215,12 @@ fi
 echo "Stopping server(s)" >&2
 if [ ! -z "$REMOTE_HOST" ] ; then
 	if [ ! -z "$REMOTE_USER" ] ; then
-		ssh $REMOTE_HOST -l $REMOTE_USER $REMOTE_SCRIPT_DIR/stop_server.sh
+		ssh $REMOTE_HOST -l $REMOTE_USER $REMOTE_SCRIPT_DIR/stop_server.sh -d $DATE
 	else
-		ssh $REMOTE_HOST $REMOTE_SCRIPT_DIR/stop_server.sh
+		ssh $REMOTE_HOST $REMOTE_SCRIPT_DIR/stop_server.sh -d $DATE
 	fi
 else
-	$SCRIPT_DIR/stop_server.sh
+	$SCRIPT_DIR/stop_server.sh -d $DATE
 fi
 
 if [ ! -z "$REMOTE_HOST" ] ; then
