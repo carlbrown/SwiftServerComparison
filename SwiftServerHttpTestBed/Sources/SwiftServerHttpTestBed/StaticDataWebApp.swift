@@ -157,7 +157,7 @@ class StaticDataWebApp: HTTPRequestHandling {
             }
         }
         
-        print("\(mach_absolute_time()) Serving request for \(req.target)")
+        print("Serving request for \(req.target)")
         
         if let responseData = fileContents(req.target) {
             
