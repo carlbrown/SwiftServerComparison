@@ -25,10 +25,10 @@ FETCHES_PER_USER=1
 CYCLES_PER_USER_COUNT=1
 FIRST_TCP_PORT=8080
 TEST_URL="http://127.0.0.1"
-TESTBED="SwiftServerHttpPerf"
+TESTBED="SwiftServerHttp"
 
 usage() {
-	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura>]" >&2
+	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura|SwiftServerHttp>]" >&2
 	exit 1
 }
 

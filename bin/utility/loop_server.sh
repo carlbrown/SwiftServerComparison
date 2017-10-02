@@ -10,12 +10,10 @@ DATE="`date '+%s'`"
 #Tune these based on your hardware
 QUEUES=8
 ACCEPTS=16
-TESTBED="SwiftServerHttpPerf"
-GIT_REPO="SwiftServerHttpPerf"
-DIRECTORY="SwiftServerHttpPerf"
+TESTBED="SwiftServerHttp"
 
 usage() {
-	echo "Usage:$0 [-?h] [-p port ] [-d date_override_in_seconds_since_epoch] [-q queue_count] [-a accept_count] [-m <heaptrack|memcheck|callgrind|massif>] [-t <Vapor|Kitura|Perfect>]" >&2
+	echo "Usage:$0 [-?h] [-p port ] [-d date_override_in_seconds_since_epoch] [-q queue_count] [-a accept_count] [-m <heaptrack|memcheck|callgrind|massif>] [-t <Vapor|Kitura|Perfect|SwiftServerHttp>]" >&2
 	exit 1
 }
 

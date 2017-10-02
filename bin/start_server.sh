@@ -8,7 +8,7 @@ export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SERVER_PROCESSES=1
 STARTING_PORT=3000
 DATE="`date '+%s'`"
-TESTBED="SwiftServerHttpPerf"
+TESTBED="SwiftServerHttp"
 
 usage() {
 	echo "Usage:$0 [-?h] [-s number_of_server_processes] [-p port_to_start_first_server_process] [-d date_override_in_seconds_since_epoch] [-m <heaptrack|memcheck|callgrind|massif>] [-q queue_count] [-a accept_count]" >&2
