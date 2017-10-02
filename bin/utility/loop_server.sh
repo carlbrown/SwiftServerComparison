@@ -10,7 +10,7 @@ DATE="`date '+%s'`"
 #Tune these based on your hardware
 QUEUES=8
 ACCEPTS=16
-TESTBED="SwiftServerHttp"
+TESTBED="SwiftServerHttpTestBed"
 GIT_REPO="SwiftServerComparison"
 
 usage() {
