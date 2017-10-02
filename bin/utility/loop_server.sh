@@ -11,6 +11,7 @@ DATE="`date '+%s'`"
 QUEUES=8
 ACCEPTS=16
 TESTBED="SwiftServerHttp"
+GIT_REPO="SwiftServerComparison"
 
 usage() {
 	echo "Usage:$0 [-?h] [-p port ] [-d date_override_in_seconds_since_epoch] [-q queue_count] [-a accept_count] [-m <heaptrack|memcheck|callgrind|massif>] [-t <Vapor|Kitura|Perfect|SwiftServerHttp>]" >&2
