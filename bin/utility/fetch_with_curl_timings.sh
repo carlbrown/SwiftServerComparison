@@ -16,11 +16,11 @@ COUNT="`awk '{print $1}' /tmp/curl_fetch.count.$$.log`"
 TIME="`sed -e 's/^.*_-_TIME_-_//' /tmp/curl_fetch.time.$$.log`"
 
 EXPECTED=228346
-EXPECTED2=228346
+EXPECTED2=228345
 if [ "$COUNT" -ne $EXPECTED -a "$COUNT" -ne $EXPECTED2 ] ; then
 	echo "bad count $COUNT (expected $EXPECTED)"
 	echo "bad count $COUNT (expected $EXPECTED)" >&2
-	#exit 2
+	exit 2
 fi
 
 #echo $TIME
