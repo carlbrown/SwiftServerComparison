@@ -15,9 +15,9 @@ grep -a '^URL_-_.*_-_SIZE_-_[0-9]*_-_TIME_-_[0-9:.]*_-_END$' /tmp/curl_fetch.out
 COUNT="`awk '{print $1}' /tmp/curl_fetch.count.$$.log`"
 TIME="`sed -e 's/^.*_-_TIME_-_//' /tmp/curl_fetch.time.$$.log`"
 
-EXPECTED=228346
-EXPECTED2=228345
-if [ "$COUNT" -ne $EXPECTED -a "$COUNT" -ne $EXPECTED2 ] ; then
+EXPECTED=228340
+EXPECTED2=228350
+if [ "$COUNT" -lt $EXPECTED -o "$COUNT" -gt $EXPECTED2 ] ; then
 	echo "bad count $COUNT (expected $EXPECTED)"
 	echo "bad count $COUNT (expected $EXPECTED)" >&2
 	exit 2
