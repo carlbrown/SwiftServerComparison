@@ -18,8 +18,14 @@ TIME="`sed -e 's/^.*_-_TIME_-_//' /tmp/curl_fetch.time.$$.log`"
 EXPECTED=24521150
 EXPECTED2=24521160
 if [ "$COUNT" -lt $EXPECTED -o "$COUNT" -gt $EXPECTED2 ] ; then
-	echo "bad count $COUNT (expected $EXPECTED)"
-	echo "bad count $COUNT (expected $EXPECTED)" >&2
+	echo "bad count $COUNT (expected $EXPECTED  - $EXPECTED2)"
+	echo "bad count $COUNT (expected $EXPECTED  - $EXPECTED2)" >&2
+	echo
+	echo
+	cat /tmp/curl_fetch.time.$$.log
+	echo
+	echo "bad count $COUNT (expected $EXPECTED  - $EXPECTED2)"
+	echo "bad count $COUNT (expected $EXPECTED  - $EXPECTED2)" >&2
 	exit 2
 fi
 
