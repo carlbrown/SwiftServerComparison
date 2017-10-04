@@ -224,17 +224,17 @@ else
 fi
 
 if [ ! -z "$REMOTE_HOST" ] ; then
-	echo "Copying output" >&2
 	if [ ! -z "$REMOTE_USER" ] ; then
-		scp -r $REMOTE_USER@$REMOTE_HOST:\$HOME/test_runs/$DATE/* $HOME/test_runs/$DATE
+		${SCRIPT_DIR}/utility/copy_output.sh -r $REMOTE_HOST -u $REMOTE_USER -d $DATE
 	else
-		scp -r $REMOTE_HOST:\$HOME/test_runs/$DATE/* $HOME/test_runs/$DATE
+		${SCRIPT_DIR}/utility/copy_output.sh -r $REMOTE_HOST -d $DATE
 	fi
+else
+	${SCRIPT_DIR}/utility/copy_output.sh -d $DATE
 fi
 
-echo "Generating results" >&2
-echo "DATE,THREADS,LATENCY,THROUGHPUT" > $HOME/test_runs/$DATE/test_results.csv
-${SCRIPT_DIR}/utility/parse_timings_from_test_runs_dir.sh $HOME/test_runs/$DATE >> $HOME/test_runs/$DATE/test_results.csv
+${SCRIPT_DIR}/utility/generate_results.sh -d $DATE
+
 echo "Test complete" >&2
 
 date '+%s' > $HOME/test_runs/$DATE/test_end_date.txt
