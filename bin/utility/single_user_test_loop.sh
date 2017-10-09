@@ -17,6 +17,6 @@ function ctrl_c() {
 }
 
 for ((n=0;n<$2;n++)); do
-	timeout 60 ${SCRIPT_DIR}/fetch_with_curl_timings.sh $1 2>&1 
+	${SCRIPT_DIR}/fetch_with_curl_timings.sh $1 2>&1 
 	sleep 0.01
 done
