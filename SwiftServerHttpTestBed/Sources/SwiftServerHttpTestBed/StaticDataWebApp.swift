@@ -157,7 +157,8 @@ class StaticDataWebApp: HTTPRequestHandling {
             }
         }
         
-        print("Serving request for \(req.target)")
+        let dateStamp = Date().timeIntervalSince1970
+        print("Serving request for \(req.target) at \(dateStamp)")
         
         if let responseData = fileContents(req.target) {
             
