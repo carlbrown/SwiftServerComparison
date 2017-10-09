@@ -12,8 +12,8 @@ curl -w '\nURL_-_%{url_effective}_-_SIZE_-_%{size_download}_-_TIME_-_%{time_tota
 
 echo "Completed curl run at `date '+%s'`"
 
-grep -a -v '^URL_-_.*_-_SIZE_-_[0-9]*_-_TIME_-_[0-9:.]*_-_END$' /tmp/curl_fetch.output.$$.log | wc -c > /tmp/curl_fetch.count.$$.log
-grep -a '^URL_-_.*_-_SIZE_-_[0-9]*_-_TIME_-_[0-9:.]*_-_END$' /tmp/curl_fetch.output.$$.log > /tmp/curl_fetch.time.$$.log
+grep -a -v '^URL_-_.*_-_SIZE_-_[0-9]*_-_TIME_-_[0-9:.]*_-_PRETRANSFER_-_[0-9:.]*_-_STATUSCODE_-_[0-9:.]*_-_END$' /tmp/curl_fetch.output.$$.log | wc -c > /tmp/curl_fetch.count.$$.log
+grep -a '^URL_-_.*_-_SIZE_-_[0-9]*_-_TIME_-_[0-9:.]*_-_PRETRANSFER_-_[0-9:.]*_-_STATUSCODE_-_[0-9:.]*_-_END$' /tmp/curl_fetch.output.$$.log > /tmp/curl_fetch.time.$$.log
 
 COUNT="`awk '{print $1}' /tmp/curl_fetch.count.$$.log`"
 TIME="`sed -e 's/^.*_-_TIME_-_//' /tmp/curl_fetch.time.$$.log`"
