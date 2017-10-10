@@ -34,10 +34,10 @@ if [ "$COUNT" -lt $EXPECTED -o "$COUNT" -gt $EXPECTED2 ] ; then
 	echo "bad count $COUNT (expected $EXPECTED  - $EXPECTED2)"
 	echo "bad count $COUNT (expected $EXPECTED  - $EXPECTED2)" >&2
 	#exit 2
+else
+    #echo $TIME
+    cat /tmp/curl_fetch.time.$$.log
 fi
-
-#echo $TIME
-cat /tmp/curl_fetch.time.$$.log
 
 rm -f /tmp/curl_fetch.time.$$.log /tmp/curl_fetch.output.$$.log /tmp/curl_fetch.error.$$.log /tmp/curl_fetch.count.$$.log
 
