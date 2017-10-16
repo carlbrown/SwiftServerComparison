@@ -171,6 +171,8 @@ class StaticDataWebApp: HTTPRequestHandling {
                 case .end:
                     res.writeBody(responseData) { _ in
                         res.done()
+                        let dateStampDone = Date().timeIntervalSince1970
+                        print("Completed request for \(req.target) at \(dateStampDone)")
                     }
                 default:
                     stop = true /* don't call us anymore */
