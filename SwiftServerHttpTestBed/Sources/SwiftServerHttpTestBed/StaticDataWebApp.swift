@@ -163,7 +163,7 @@ class StaticDataWebApp: HTTPRequestHandling {
         if let responseData = fileContents(req.target) {
             
             //Assume the router gave us the right request - at least for now
-            res.writeHeader(status: .ok, headers: HTTPHeaders(dictionaryLiteral: ("Content-Type",mimetype)), completion: {_ in })
+            res.writeHeader(status: .ok, headers: HTTPHeaders(dictionaryLiteral: ("Content-Type",mimetype),("Content-Length","\(responseData.count)")), completion: {_ in })
             return .processBody { (chunk, stop) in
                 switch chunk {
                 case .chunk(_, let finishedProcessing):
