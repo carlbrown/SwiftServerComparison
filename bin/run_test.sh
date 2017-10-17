@@ -135,14 +135,14 @@ fi
 echo $DATE > $HOME/test_runs/$DATE/test_begin_date.txt
 echo "$0 $TEST_ARGS" > $HOME/test_runs/$DATE/test_args.sh
 
-if [ $SERVER_PROCESSES -gt 1 ] ; then
-	echo "Multiple processes specified, starting HAProxy"
+if [ $SERVER_PROCESSES -gt 1 -o -n "$HAPROXY_PORT" ] ; then
+	echo "Multiple processes (or HAPROXY_PORT) specified, starting HAProxy"
 	which haproxy >/dev/null 2>&1
 	if [ $? -ne 0 ] ; then
 		echo "haproxy not found - please install it or avoid setting number_of_server_processes above 1 with -s" >&2
 		exit 3
 	fi
-	kill `ps ax | grep haproxy | grep -v grep | awk '{print $1}'` 2>/dev/null
+	kill `ps ax | grep haproxy | grep -v grep | grep -v $0 | awk '{print $1}'` 2>/dev/null
 	if [ -z "$HAPROXY_PORT" ] ; then
 		HAPROXY_PORT="`expr $FIRST_TCP_PORT - 1`"
 	fi
@@ -209,7 +209,7 @@ done
 echo "Test run complete" >&2
 
 if [ $SERVER_PROCESSES -gt 1 ] ; then
-	kill `ps ax | grep haproxy | grep -v grep | awk '{print $1}'` 2>/dev/null
+	kill `ps ax | grep haproxy | grep -v grep | grep -v $0 | awk '{print $1}'` 2>/dev/null
 fi
 
 echo "Stopping server(s)" >&2
