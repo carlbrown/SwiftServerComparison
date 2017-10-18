@@ -157,8 +157,8 @@ class StaticDataWebApp: HTTPRequestHandling {
             }
         }
         
-        let dateStamp = Date().timeIntervalSince1970
-        print("Serving request for \(req.target) at \(dateStamp)")
+        //let dateStamp = Date().timeIntervalSince1970
+        //print("Serving request for \(req.target) at \(dateStamp)")
         
         if let responseData = fileContents(req.target) {
             
@@ -171,8 +171,8 @@ class StaticDataWebApp: HTTPRequestHandling {
                 case .end:
                     res.writeBody(responseData) { _ in
                         res.done()
-                        let dateStampDone = Date().timeIntervalSince1970
-                        print("Completed request for \(req.target) at \(dateStampDone)")
+                        //let dateStampDone = Date().timeIntervalSince1970
+                        //print("Completed request for \(req.target) at \(dateStampDone)")
                     }
                 default:
                     stop = true /* don't call us anymore */
