@@ -26,9 +26,10 @@ CYCLES_PER_USER_COUNT=1
 FIRST_TCP_PORT=8080
 TEST_URL="http://127.0.0.1"
 TESTBED="SwiftServerHttp"
+WAIT_TIME=5
 
 usage() {
-	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura|SwiftServerHttp>]" >&2
+	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura|SwiftServerHttp>] [-w wait_time_in_seconds_for_server_to_quiesce_after_test ]" >&2
 	exit 1
 }
 
@@ -98,6 +99,11 @@ do
 	-q|--queue|--queues|--queue_count)
 		if [ -z "$2" ] ; then usage; fi
 		QUEUES="-q $2"
+		shift # skip argument
+		;;
+	-w|--wait|--wait_time|--wait_time_in_seconds_for_server_to_quiesce_after_test)
+		if [ -z "$2" ] ; then usage; fi
+		WAIT_TIME="$2"
 		shift # skip argument
 		;;
 	-t|--testbed|--test_bed)
@@ -206,7 +212,11 @@ while [ ! -z "`screen -ls | grep iterate_users.$DATE`" ] ; do
 	sleep 10
 done
 
-echo "Test run complete" >&2
+echo "Test run complete, waiting for server to quiesce" >&2
+
+sleep $WAIT_TIME
+
+echo "Test run complete, stopping servers" >&2
 
 if [ $SERVER_PROCESSES -gt 1 ] ; then
 	kill `ps ax | grep haproxy | grep -v grep | grep -v $0 | awk '{print $1}'` 2>/dev/null
