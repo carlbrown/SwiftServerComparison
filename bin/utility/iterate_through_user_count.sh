@@ -3,11 +3,11 @@
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DATE="`date '+%s'`"
 
-if [ $# -ne 6 -a $# -ne 7 ] ; then
-	echo "Usage: $0 base_url min_user_count max_user_count user_count_step pages_fetched_per_user cycles_at_each_user_count  [base_date_override_in_seconds_since_epoch]" >&2
+if [ $# -ne 7 -a $# -ne 8 ] ; then
+	echo "Usage: $0 base_url min_user_count max_user_count user_count_step pages_fetched_per_user cycles_at_each_user_count delay_between_cycles [base_date_override_in_seconds_since_epoch]" >&2
 	exit 3
-elif [ $# -eq 7 ] ; then
-	DATE="$7"
+elif [ $# -eq 8 ] ; then
+	DATE="$8"
 fi
 
 export DATE
@@ -24,6 +24,6 @@ for ((n=$2;n<=$3;n=n+$4)); do
 		echo "Starting $k/$6 of iteration $n/$3"
 		time ${SCRIPT_DIR}/parallel_user_test_run.sh $1 $n $5 $DATE
 		echo "Completed $k/$6 of iteration $n/$3"
-		sleep 10
+		sleep $7
 	done
 done

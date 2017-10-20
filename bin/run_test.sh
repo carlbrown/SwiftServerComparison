@@ -26,10 +26,11 @@ CYCLES_PER_USER_COUNT=1
 FIRST_TCP_PORT=8080
 TEST_URL="http://127.0.0.1"
 TESTBED="SwiftServerHttp"
+DELAY_BETWEEN_CYCLES=10
 WAIT_TIME=5
 
 usage() {
-	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura|SwiftServerHttp>] [-w wait_time_in_seconds_for_server_to_quiesce_after_test ]" >&2
+	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-d delay_between_cycles] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura|SwiftServerHttp>] [-w wait_time_in_seconds_for_server_to_quiesce_after_test ]" >&2
 	exit 1
 }
 
@@ -69,6 +70,11 @@ do
 	-i|--increment|--increment_users|--increment_user_count)
 		if [ -z "$2" ] ; then usage; fi
 		INCREMENT_USER_COUNT="$2"
+		shift # skip argument
+		;;
+	-d|--delay|--delay_between_cycles)
+		if [ -z "$2" ] ; then usage; fi
+		DELAY_BETWEEN_CYCLES="$2"
 		shift # skip argument
 		;;
 	-f|--fetches|--fetches_per_user)
@@ -203,7 +209,7 @@ echo "Starting test run" >&2
 
 cp ${SCRIPT_DIR}/configs/screenrc /tmp/screen.$DATE.iterate_users.rc
 echo "logfile $HOME/test_runs/$DATE/screenlog.$DATE.iterate_users.log" >> /tmp/screen.$DATE.iterate_users.rc
-screen -c /tmp/screen.$DATE.iterate_users.rc -L -S iterate_users.$DATE -d -m ${SCRIPT_DIR}/utility/iterate_through_user_count.sh "http://$URL_HOST$URL_PORT" $BEGINNING_USER_COUNT $ENDING_USER_COUNT $INCREMENT_USER_COUNT $FETCHES_PER_USER $CYCLES_PER_USER_COUNT $DATE
+screen -c /tmp/screen.$DATE.iterate_users.rc -L -S iterate_users.$DATE -d -m ${SCRIPT_DIR}/utility/iterate_through_user_count.sh "http://$URL_HOST$URL_PORT" $BEGINNING_USER_COUNT $ENDING_USER_COUNT $INCREMENT_USER_COUNT $FETCHES_PER_USER $CYCLES_PER_USER_COUNT $DELAY_BETWEEN_CYCLES $DATE
 
 echo "Test run started" >&2
 
