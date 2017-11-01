@@ -23,7 +23,8 @@ if [ -f core ] ; then
 	fi
 	DATE="$PORT.`date '+%s'`"
 	lldb $1 -c core -o "bt all" -o "script import os; os._exit(1)" > $HOME/test_runs/$RUN_DATE/core.stacktrace.$DATE.out 2>&1 
-	mv core $HOME/test_runs/$RUN_DATE/core.$DATE.core	
+	#mv core $HOME/test_runs/$RUN_DATE/core.$DATE.core	
+	rm -f core
 	git log -1 --pretty=oneline > $HOME/test_runs/$RUN_DATE/git.$DATE.out
 	for i in Packages/*; do 
 		echo "$i: " >> $HOME/test_runs/$RUN_DATE/git.$DATE.out
