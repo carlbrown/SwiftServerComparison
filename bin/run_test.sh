@@ -153,6 +153,7 @@ fi
 
 echo $DATE > $HOME/test_runs/$DATE/test_begin_date.txt
 echo "$0 $TEST_ARGS" > $HOME/test_runs/$DATE/test_args.sh
+(cd $SCRIPT_DIR && git log -1) > $HOME/test_runs/$DATE/git_log.txt
 
 if [ $SERVER_PROCESSES -gt 1 -o -n "$HAPROXY_PORT" ] ; then
 	echo "Multiple processes (or HAPROXY_PORT) specified, starting HAProxy"
