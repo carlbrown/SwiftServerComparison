@@ -14,7 +14,7 @@ TESTBED="SwiftServerHttpTestBed"
 GIT_REPO="SwiftServerComparison"
 
 usage() {
-	echo "Usage:$0 [-?h] [-p port ] [-d date_override_in_seconds_since_epoch] [-q queue_count] [-a accept_count] [-m <heaptrack|memcheck|callgrind|massif>] [-t <Vapor|Kitura|Perfect|SwiftServerHttp>]" >&2
+	echo "Usage:$0 [-?h] [-p port ] [-d date_override_in_seconds_since_epoch] [-q queue_count] [-a accept_count] [-m <heaptrack|memcheck|callgrind|massif>] [ -S <thread|address> ] [-t <Vapor|Kitura|Perfect|SwiftServerHttp>]" >&2
 	exit 1
 }
 
@@ -68,6 +68,13 @@ do
 		fi
 		shift # skip argument
 		;;
+	-S|--sanitize|--sanitizer)
+		if [ -z "$2" ] ; then usage; fi
+		if [ "${2}" != "$SANITIZER_DIAGNOSTIC" ] ; then
+			SANITIZER_DIAGNOSTIC="-Xswiftc -sanitize=${2}"
+		fi
+		shift # skip argument
+		;;
 	*)
 		usage
 		;;
@@ -118,7 +125,7 @@ rm -rf .build Packages Package.pins
 
 swift package fetch
 
-swift build
+swift build $SANITIZER_DIAGNOSTIC
 
 if [ $? -ne 0 ] ; then
 	echo "Compile error" >&2
@@ -135,7 +142,7 @@ if [ ! -x ./.build/debug/$TESTBED ] ; then
 fi
 
 while [ : ] ; do
-	echo "Attempting to Start Server $MEMORY_DIAGNOSTIC on port $PORT with $QUEUES serial queues and $ACCEPTS socket accept count on tty `tty` in `pwd`"
+	echo "Attempting to Start Server $MEMORY_DIAGNOSTIC $SANITIZER_DIAGNOSTIC on port $PORT with $QUEUES serial queues and $ACCEPTS socket accept count on tty `tty` in `pwd`"
 	$MEMORY_DIAGNOSTIC $MEMORY_DIAGNOSTIC_ARGS ./.build/debug/$TESTBED
 	$SCRIPT_DIR/archive_core.sh ./.build/debug/$TESTBED $PORT $DATE &
 done

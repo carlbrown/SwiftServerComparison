@@ -11,7 +11,7 @@ DATE="`date '+%s'`"
 TESTBED="SwiftServerHttp"
 
 usage() {
-	echo "Usage:$0 [-?h] [-s number_of_server_processes] [-p port_to_start_first_server_process] [-d date_override_in_seconds_since_epoch] [-m <heaptrack|memcheck|callgrind|massif>] [-q queue_count] [-a accept_count]" >&2
+	echo "Usage:$0 [-?h] [-s number_of_server_processes] [-p port_to_start_first_server_process] [-d date_override_in_seconds_since_epoch] [-m <heaptrack|memcheck|callgrind|massif>] [ -S <thread|address> ] [-q queue_count] [-a accept_count]" >&2
 	exit 1
 }
 
@@ -60,6 +60,13 @@ do
 		fi
 		shift # skip argument
 		;;
+	-S|--sanitize|--sanitizer)
+		if [ -z "$2" ] ; then usage; fi
+		if [ "${2}" != "$SANITIZER_DIAGNOSTIC" ] ; then
+			SANITIZER_DIAGNOSTIC="-S ${2}"
+		fi
+		shift # skip argument
+		;;
 	*)
 		usage
 		;;
@@ -94,7 +101,7 @@ for ((i=0;i<$SERVER_PROCESSES;i++)); do
 	PORT=`expr $STARTING_PORT + $i`
 	cp ${SCRIPT_DIR}/configs/screenrc /tmp/screen.$PORT.rc
 	echo "logfile $HOME/test_runs/$DATE/screenlog.$PORT.log" >> /tmp/screen.$PORT.rc
-	screen -c /tmp/screen.$PORT.rc -L -S ${PORT}_${DATE} -d -m ${SCRIPT_DIR}/utility/loop_server.sh -p $PORT -d $DATE $MEMORY_DIAGNOSTIC $TESTBEDARG $ACCEPTS $QUEUES
+	screen -c /tmp/screen.$PORT.rc -L -S ${PORT}_${DATE} -d -m ${SCRIPT_DIR}/utility/loop_server.sh -p $PORT -d $DATE $MEMORY_DIAGNOSTIC $SANITIZER_DIAGNOSTIC $TESTBEDARG $ACCEPTS $QUEUES
 	SCREEN_STATUS=$?
 	if [ $SCREEN_STATUS -ne 0 ] ; then
 		echo "Error running GNU Screen" >&2

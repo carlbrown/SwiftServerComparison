@@ -30,7 +30,7 @@ DELAY_BETWEEN_CYCLES=10
 WAIT_TIME=5
 
 usage() {
-	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-d delay_between_cycles] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura|SwiftServerHttp>] [-w wait_time_in_seconds_for_server_to_quiesce_after_test ]" >&2
+	echo "Usage:$0 [-?] [-r remote_server_host [-l]] [-u remote_server_user] [-s number_of_server_processes] [-b beginning_user_count] [-e ending_user_count] [-i increment_user_count] [-f fetches_per_user] [-c cycles_at_each_user_count] [-d delay_between_cycles] [-p port_to_start_first_server_process] [-m <heaptrack|memcheck|callgrind|massif>] [-h haproxy_port]  [-q queue_count] [-a accept_count] [-t <Vapor|Perfect|Kitura|SwiftServerHttp>] [ -S <thread|address> ] [-w wait_time_in_seconds_for_server_to_quiesce_after_test ]" >&2
 	exit 1
 }
 
@@ -127,6 +127,13 @@ do
 		fi
 		shift # skip argument
 		;;
+	-S|--sanitize|--sanitizer)
+		if [ -z "$2" ] ; then usage; fi
+		if [ "${2}" != "$SANITIZER_DIAGNOSTIC" ] ; then
+			SANITIZER_DIAGNOSTIC="-S ${2}"
+		fi
+		shift # skip argument
+		;;
 	*)
 		usage
 		;;
@@ -176,12 +183,12 @@ fi
 
 if [ ! -z "$REMOTE_HOST" ] ; then
 	if [ ! -z "$REMOTE_USER" ] ; then
-		ssh $REMOTE_HOST -l $REMOTE_USER $REMOTE_SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $MEMORY_DIAGNOSTIC $TESTBEDARG $ACCEPTS $QUEUES
+		ssh $REMOTE_HOST -l $REMOTE_USER $REMOTE_SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $MEMORY_DIAGNOSTIC $SANITIZER_DIAGNOSTIC $TESTBEDARG $ACCEPTS $QUEUES
 	else
-		ssh $REMOTE_HOST $REMOTE_SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $MEMORY_DIAGNOSTIC $TESTBEDARG $ACCEPTS $QUEUES
+		ssh $REMOTE_HOST $REMOTE_SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $MEMORY_DIAGNOSTIC $SANITIZER_DIAGNOSTIC $TESTBEDARG $ACCEPTS $QUEUES
 	fi
 else
-	$SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $ACCEPTS $MEMORY_DIAGNOSTIC $TESTBEDARG $QUEUES
+	$SCRIPT_DIR/start_server.sh -s $SERVER_PROCESSES -p $FIRST_TCP_PORT -d $DATE $ACCEPTS $MEMORY_DIAGNOSTIC $SANITIZER_DIAGNOSTIC $TESTBEDARG $QUEUES
 fi
 
 if [ $? -ne 0 ] ; then
