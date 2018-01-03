@@ -7,7 +7,7 @@ import CoreFoundation
 
 import HTTP
 
-let server = HTTPServer()
+let server: HTTPServer
 
 var port = 8090
 var queueCount = 0 //use default
@@ -17,6 +17,8 @@ var pathString: String? = nil
 if let portBuffer = getenv("PORT"), let environmentPort=Int(String(cString:portBuffer)) {
     port=environmentPort
 }
+
+let options = HTTPServer.Options(onPort: port)
 
 if let queueBuffer = getenv("QUEUES"), let environmentQueueCount=Int(String(cString:queueBuffer)), environmentQueueCount > 0 {
     queueCount=environmentQueueCount
@@ -35,9 +37,11 @@ if let pathBuffer = getenv("STATIC_BASE_PATH") {
 }
 
 if let path = pathString {
-    try! server.start(port: port, handler: StaticDataWebApp(basePath:path).handle)
+    server = HTTPServer(with: options, requestHandler: StaticDataWebApp(basePath:path).handle)
 } else {
-    try! server.start(port: port, handler: StaticDataWebApp().handle)
+    server = HTTPServer(with: options, requestHandler: StaticDataWebApp().handle)
 }
 
-CFRunLoopRun()
+try! server.start()
+
+RunLoop.current.run()
